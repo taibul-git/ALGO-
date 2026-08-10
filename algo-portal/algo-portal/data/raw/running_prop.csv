@@ -1,0 +1,132 @@
+TG NAME,ACCOUNT INFORMATION,SUBSCRIPTION,NOTE,STATUS,VPS,Unnamed: 6,Subscription,Running Number
+Kobi Leon,"Kobi Leon
+MT5
+531124844
+gMqh8y*$1D
+FTMO server 3
+100,033$
+Prop Firm",Algo Lifetime,"Follow the guideline of this link- https://ftmo.com/en/trading-objectives/  
+1. 5% of the initial balance
+2. Normal
+3. 10% max total loss of $10,000
+4. any trade with fixed SL",Running,CV6,,Lifetime,12.0
+Ward N,"Ward N
+MT4
+22290568
+egiOY68##
+FundedNext-Demo
+Fundednext ltd
+5,638$
+Prop Firm
+0.01",Algo Lifetime,"1. Max loss limit: $600
+2. Normal
+3. Minimum 9 trading days
+4. No",Running,CV6,,1 Month,0.0
+Anuj Thakur,"Anuj Thakur
+MT5
+33755007
+psmGC44##
+FundedNext-Server3
+
+Prop Firm",Algo Lifetime,"1. Daily Drawdown limit- 6
+2. Drawdown type - Normal or Trailing ( If trailing, we recommend balance based drawdown)- Trailing
+3. Any additional rules that needs to be maintained
+4. Any other risk consistency?",Running,CV17,,Broker Trial,0.0
+Tom Milton,"Tom Milton
+MT5
+541222452
+7?!IlbC1??
+FTMO-Server4
+FTMO-Server4
+100,000$
+Prop Firm
+1",Algo Lifetime,,Running,CV6,,,12.0
+Usureaua ,"Usureaua 
+MT5
+14098828
+daxUJ11##
+FundedNext-Server2
+Prop Firm
+0.8",Algo Lifetime,"Prop FIRM. Fundednext
+
+Daily drawdown 5% [ $5000]
+
+Maximum drawdown 10% ( 10k)
+",Running,CV6,,,
+Stijn Van Der Meer,"Stijn Van Der Meer
+MT5
+11973347
+sufEL13##
+Fundednext-Server
+
+Fundednext-Server
+
+200,000$
+Prop Firm
+0.5",Algo Lifetime,"1. 4%
+2. Normal
+3. News Trading Allowed
+4. Max Risk 3% at any time
+5. Max Margin 70% at any time
+6. Max loss limit 8%
+",Running,CV6,,,
+Darryl C,"Darryl C
+MT5
+23009468
+5i64$tIDSuLrxZ
+ICMarketsAU-Demo
+ICMarketsAU-Demo
+100,037$
+Prop Firm
+0.04",Algo Lifetime,No BTCUSD trades,Running,CV5,,,
+M AB,"M AB
+MT5
+122888
+q5T^M^qr8
+Server Holaprime-Server1
+Prop Firm",Algo Lifetime,"$750.03 loss
+Daily Loss Limit
+
+3% (Trailing)
+
+Max Loss Limit
+
+6% (Static)
+
+Profit Target
+
+10%",Running,CV6,,,
+Carvey Evans,"Carvey Evans
+MT5
+1378790
+M3>Wu9yR.2u=
+Upcomers-Server
+Prop Firm
+0.4",Algo Lifetime,Daily Drawdown: 4.00%,Running,CV14,,,
+Hammad Chaudhry,"1.MT4
+2. Account Number: 63134425
+3. Account password: sfsJwGwc6zxQJ8c
+4. Account Server ID: RoboForex-DemoPro
+5. Account Balance: 100k
+6. Demo (Prop Firm)
+7. Max daily drawdown 5%",Lifetime,,Running,CV6,,,
+@Prestigebfs,"1.MT4 
+2.Account number:5190560 
+3.Password : !xGH#c@#7w@VE8B 
+4.Server : Coinexx-Demo 
+5.$100K Prop Firm Account
+",Lifetime,,Running,CV6,,,
+Steve Roy,"1.	Trading Platform: MT4
+2.	Login: 21773663
+3.	Password: qqed38
+4.	Server: ICMarketsSC-Demo02
+5.	105 972.43
+6.	Prop
+7.	I'm good with a higher risk, so based on the account size I'm good to go with the setting for the account size.
+
+---Prop firm related information---
+1. 5% - so we can set it at $5000
+2. Normal, fix at $90,000
+3. That is the only thing we have to worry about
+4. No consistency rule
+",Lifetime,He wants to replace his Algo account. He bought the Algo at 2024,Running,CV6,,,

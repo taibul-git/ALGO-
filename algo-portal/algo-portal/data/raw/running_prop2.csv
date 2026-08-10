@@ -1,0 +1,197 @@
+TG NAME,ACCOUNT INFORMATION,SUBSCRIPTION,NOTE,STATUS,VPS No.,Unnamed: 6,Unnamed: 7,Subscription,Running Number
+Charles,"1. MT4
+2. Account Number: 100503620
+3.  Account password:  kYpz1!kI
+4. Account Server ID: PUPrime-Demo
+5.Account Balance:  $100,000
+6. Prop",Lifetime,,Running,CV4,,,Lifetime,16.0
+Hammad Chaudhry,"1.MT4
+2. Account Number: 63134425
+3. Account password: sfsJwGwc6zxQJ8c
+4. Account Server ID: RoboForex-DemoPro
+5. Account Balance: 100k
+6. Demo (Prop Firm)
+7. Max daily drawdown 5%",Lifetime,,Running,CV4,,,1 Month,2.0
+@Prestigebfs,"1.MT4 
+2.Account number:5190560 
+3.Password : !xGH#c@#7w@VE8B 
+4.Server : Coinexx-Demo 
+5.$100K Prop Firm Account
+",Lifetime,,Running,CV4,,,Broker Trial,0.0
+Irving Pirela,"1. Platform: Metatrader 5
+2. Account Number: 25529728
+3. Account password: qqwmRTMP-.70
+4. Account Server name: FivePercentOnline-Real
+5. Account Balance: $5,000
+6. Prop Firm Name: The 5ers
+7. Lot Size: 0.01",Lifetime,,Running,CV4,,,Total,18.0
+Steve Roy,"1.        Trading Platform: MT4
+2.        Login: 21773663
+3.        Password: qqed38
+4.        Server: ICMarketsSC-Demo02
+5.        105 972.43
+6.        Prop
+7.        I'm good with a higher risk, so based on the account size I'm good to go with the setting for the account size.
+
+---Prop firm related information---
+1. 5% - so we can set it at $5000
+2. Normal, fix at $90,000
+3. That is the only thing we have to worry about
+4. No consistency rule
+",Lifetime,He wants to replace his Algo account. He bought the Algo at 2024,Running,CV4,,,,
+Mujib Kalantar,"Trading Platform: Mt5
+
+2.AccountNumber:
+11536153
+
+Account password:
+uncPA41##
+
+Account Server ID:
+FundedNext-Server
+
+Account Balance:
+£20000
+
+It is Prop Firm (fundednext stellar instant)
+(• Forex: 1:30
+• Commodities: 1:7.5
+• Indices: 1:5
+• Crypto: 1:1
+)
+
+Any Preferred Lot Size?
+Minimal risk lot please. As this is my only active account",Lifetime,"Here are the specific stats for the $20,000 Stellar Instant account:
+
+Daily Loss Limit: No daily loss limit
+
+Loss Limit Type: Trailing - 6% Maximum Loss Limit (MLL) that moves up with profit but never decreases with losses, capped at your initial balance
+
+Additional Rules:
+• News trading allowed with 60% Performance Reward split during news windows
+
+• 1% trailing MLL equity buffer (maximum 3 times per account)
+
+Risk Consistency: No consistency rules apply - you have full flexibility with lot size, trade frequency, and daily consistency
+
+The trailing Maximum Loss Limit only increases with profit and never exceeds your initial $20,000 balance, providing flexible risk management without daily restrictions.",Running,CV4,,,,
+Golden Trader 🥇 ,"Golden Trader 🥇 
+MT5
+120533
+d7nv$RuF3O
+EquityEdge-Trade
+101,034$
+Prop Firm
+0.46",Lifetime,,Running,CV4,,,,
+Maxamad Simba,"Maxamad Simba
+MT5
+11673639
+bzaNX70##
+FundedNext-Server
+5,000$
+Prop Firm
+0.02",Lifetime,1. Daily Drawdown limit- is 200$  2.it is balance base drawdowno t   3.no  there any additional rules 4. no consistance rule  5 max drawdown 400$,Running,CV14,,,,
+Abhisek Das,"Abhisek Das
+MT5
+711739
+j6D*cBkx7
+IFPro-Trade
+9,922$
+Prop Firm
+30.00%",Lifetime,"1. Daily Drawdown limit- 2.5%
+2. Trailing 
+3. no Martingale strategy and no HTF(High Frequency Trading) minimum 5 min trade",Running,CV14,,,,
+Alessandro T,"""Alessandro T
+MT5
+314310924
+@Wmefe9A43
+GoatFunded-Server
+5,000$
+Prop Firm""",Lifetime,Daily 5% Drawdown 10% Maximum,Running,CV6,,,,
+Ian Bushell,"Ian Bushell
+MT5
+345476
+MxEkUw)7g^
+BlueGuardian-Server
+200,000$
+Prop Firm",Lifetime,"It's a funded account 
+
+Max drawdown will remain at 6%
+Your Max Drawdown is 6% trailing
+
+2 .it trails only until you grow the account by 6% from starting balance.
+
+max risk  1% overall - 2000k 
+
+That's it
+
+max risk is breach not stop loss
+",Running,CV6,,,,
+anderson ,"anderson 
+MT5
+98846319
+yzC#TZ0v)J
+TopOneTrader-MT5
+TopOneTrader-MT5
+50,000$
+Prop Firm",Lifetime,"1. 4%
+2.7% trailing drawdown
+3. no execution 5 mins before/after high-impact news
+4.No",Running,CV6,,,,
+,,,,,,,,,
+Sumanth Motha,"MT4
+411010512
+7VcYHQa$*C
+FTMO Global Markets Ltd.
+FTMO-Server
+14,067$
+Prop Firm
+0.02",1 month,"Clients' trading objectives are 
+Minimum 4 trading days
+Max Daily Loss  -750 cad
+Max Loss -1500 cad 
+Profit Target 1500 cad""
+Drawdown Type: NORMAL
+
+Clients' prop firm specifies only monetary value
+ 
+Alreday using an EA. Need to inform if there is any of removing the EA. ",Running,CV14,,,,
+Justin,"Justin 
+MT5
+600009997
+Zfhd9@j35y6
+OANDA-Prop Trader
+9,662$
+Prop Firm",Lifetime,,Running,CV14,,,,
+Marcos ,"Marcos 
+MT4
+411018676
+Camaro1969$
+FTMO-Server
+Prop Firm",Lifetime,,Running,CV6,,,,
+Kobi Leon,"Kobi Leon
+MT5
+531124844
+gMqh8y*$1D
+FTMO server 3
+100,033$
+Prop Firm",Lifetime,Follow the guideline of this link- https://ftmo.com/en/trading-objectives/,Running,CV6,,,,
+Jan Eichenbrot,"MT5
+521039698
+n6Vt88NC!tww$
+FTMO Server2
+Access Server 1a
+9,907$
+Prop Firm
+0.1",1 month,"""Follow the guideline of this link- https://ftmo.com/en/trading-objectives/  
+1. 5% of the initial balance
+2. Normal
+3. 10% max total loss of $10,000
+4. any trade with fixed SL""",Running,CV14,,,,
+aero ,"aero 
+MT5
+11640321
+wzjJR54##
+FundedNext-Server
+10,000$
+Prop Firm",Lifetime,,Running,CV6,,,,

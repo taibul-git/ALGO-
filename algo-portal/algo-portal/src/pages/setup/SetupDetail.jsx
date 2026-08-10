@@ -1,0 +1,136 @@
+import { useEffect, useState, useCallback } from 'react';
+import { useParams, Link } from 'react-router-dom';
+import api from '../../api/client';
+import { StatusBadge, Field, inputCls } from '../../components/ui';
+import { ArrowLeft } from 'lucide-react';
+
+const STATUSES = ['Not Started', 'In Progress', 'Completed', 'Blocked'];
+
+export default function SetupDetail() {
+  const { id } = useParams();
+  const [setup, setSetup] = useState(null);
+  const [form, setForm] = useState({});
+  const [noteText, setNoteText] = useState('');
+  const [saving, setSaving] = useState(false);
+
+  const load = useCallback(() => {
+    api.get(`/setups/${id}`).then((res) => { setSetup(res.data); setForm(res.data); });
+  }, [id]);
+
+  useEffect(() => { load(); }, [load]);
+
+  const save = async () => {
+    setSaving(true);
+    const fields = ['setup_field', 'setup_status', 'vps_no', 'ext_id', 'parameters', 'activation_date', 'expire_date', 'vps_expire_date', 'note'];
+    const changed = {};
+    for (const f of fields) if (form[f] !== setup[f]) changed[f] = form[f];
+    try {
+      if (Object.keys(changed).length) await api.patch(`/setups/${id}`, changed);
+      load();
+    } finally { setSaving(false); }
+  };
+
+  const addNote = async (e) => {
+    e.preventDefault();
+    if (!noteText.trim()) return;
+    await api.post('/notes', { entity_type: 'setup', entity_id: Number(id), note_text: noteText });
+    setNoteText(''); load();
+  };
+
+  if (!setup) return <div className="text-slate-400 text-sm">Loading…</div>;
+
+  return (
+    <div>
+      <Link to="/setups" className="inline-flex items-center gap-1 text-sm text-slate-500 hover:text-slate-700 mb-4">
+        <ArrowLeft size={15} /> Back to setups
+      </Link>
+
+      <div className="flex items-start justify-between mb-6">
+        <div>
+          <h1 className="text-2xl font-semibold text-slate-900">{setup.telegram_name}</h1>
+          <div className="flex items-center gap-2 mt-1">
+            <StatusBadge status={setup.setup_status} />
+            <span className="text-sm text-slate-400 capitalize">{setup.plan_type.replace('_', ' ')} plan</span>
+          </div>
+        </div>
+        {setup.client_id && <Link to={`/clients/${setup.client_id}`} className="text-sm text-[#2FB3A6] hover:underline">View linked client →</Link>}
+      </div>
+
+      <div className="grid grid-cols-3 gap-6">
+        <div className="col-span-2 space-y-6">
+          <div className="bg-white rounded-xl border border-slate-200 p-5">
+            <h3 className="font-medium text-slate-800 mb-1">Account information (read-only — owned by CS Portal)</h3>
+            <p className="text-xs text-slate-400 mb-4">These fields are synced from the client record and can't be edited from Setup.</p>
+            <div className="grid grid-cols-2 gap-x-4 gap-y-2 text-sm">
+              <div><span className="text-slate-400">Account #:</span> <span className="text-slate-700">{setup.trading_account_number || '—'}</span></div>
+              <div><span className="text-slate-400">Platform:</span> <span className="text-slate-700">{setup.trading_platform || '—'}</span></div>
+              <div><span className="text-slate-400">Server:</span> <span className="text-slate-700">{setup.server_name || '—'}</span></div>
+              <div><span className="text-slate-400">Algo Plan:</span> <span className="text-slate-700">{setup.algo_plan || '—'}</span></div>
+              <div><span className="text-slate-400">Fixed Lot:</span> <span className="text-slate-700">{setup.fixed_lot_size || '—'}</span></div>
+              <div><span className="text-slate-400">Account Balance:</span> <span className="text-slate-700">{setup.account_balance || '—'}</span></div>
+            </div>
+          </div>
+
+          <div className="bg-white rounded-xl border border-slate-200 p-5">
+            <div className="flex items-center justify-between mb-4">
+              <h3 className="font-medium text-slate-800">Setup fields</h3>
+              <button onClick={save} disabled={saving} className="px-4 py-1.5 text-sm rounded-lg bg-[#2FB3A6] text-white font-medium disabled:opacity-60">
+                {saving ? 'Saving…' : 'Save changes'}
+              </button>
+            </div>
+            <div className="grid grid-cols-2 gap-x-4">
+              <Field label="Setup Status">
+                <select className={inputCls} value={form.setup_status || ''} onChange={(e) => setForm({ ...form, setup_status: e.target.value })}>
+                  {STATUSES.map((s) => <option key={s} value={s}>{s}</option>)}
+                </select>
+              </Field>
+              <Field label="VPS No."><input className={inputCls} value={form.vps_no || ''} onChange={(e) => setForm({ ...form, vps_no: e.target.value })} /></Field>
+              <Field label="ID"><input className={inputCls} value={form.ext_id || ''} onChange={(e) => setForm({ ...form, ext_id: e.target.value })} /></Field>
+              <Field label="Parameters"><input className={inputCls} value={form.parameters || ''} onChange={(e) => setForm({ ...form, parameters: e.target.value })} /></Field>
+              <Field label="Activation Date"><input className={inputCls} value={form.activation_date || ''} onChange={(e) => setForm({ ...form, activation_date: e.target.value })} /></Field>
+              <Field label="Expire Date"><input className={inputCls} value={form.expire_date || ''} onChange={(e) => setForm({ ...form, expire_date: e.target.value })} /></Field>
+              <Field label="VPS Expire Date"><input className={inputCls} value={form.vps_expire_date || ''} onChange={(e) => setForm({ ...form, vps_expire_date: e.target.value })} /></Field>
+              <Field label="Setup (raw)"><input className={inputCls} value={form.setup_field || ''} onChange={(e) => setForm({ ...form, setup_field: e.target.value })} /></Field>
+              <div className="col-span-2">
+                <Field label="Note"><textarea rows={3} className={inputCls} value={form.note || ''} onChange={(e) => setForm({ ...form, note: e.target.value })} /></Field>
+              </div>
+            </div>
+            <p className="text-xs text-slate-400 mt-1">Source: {setup.source_tab}</p>
+          </div>
+        </div>
+
+        <div className="space-y-6">
+          <div className="bg-white rounded-xl border border-slate-200 p-5">
+            <h3 className="font-medium text-slate-800 mb-3">Notes</h3>
+            <form onSubmit={addNote} className="mb-3">
+              <textarea className={inputCls} rows={3} placeholder="Add a note…" value={noteText} onChange={(e) => setNoteText(e.target.value)} />
+              <button className="mt-2 w-full bg-slate-800 hover:bg-slate-900 text-white text-sm font-medium py-2 rounded-lg">Add note</button>
+            </form>
+            <div className="space-y-3 max-h-64 overflow-y-auto">
+              {setup.notes.map((n) => (
+                <div key={n.id} className="text-sm border-b border-slate-50 pb-2">
+                  <p className="text-slate-700">{n.note_text}</p>
+                  <p className="text-xs text-slate-400 mt-1">{n.author_name || 'Unknown'} · {n.created_at}</p>
+                </div>
+              ))}
+              {!setup.notes.length && <p className="text-sm text-slate-400">No notes yet.</p>}
+            </div>
+          </div>
+
+          <div className="bg-white rounded-xl border border-slate-200 p-5">
+            <h3 className="font-medium text-slate-800 mb-3">Activity</h3>
+            <div className="space-y-2 max-h-64 overflow-y-auto">
+              {setup.activity.map((a) => (
+                <div key={a.id} className="text-xs text-slate-600">
+                  <span className="text-slate-800">{a.user_name || 'System'}</span> {a.action.replace('_', ' ')} {a.field_changed && `· ${a.field_changed}`}
+                  <div className="text-slate-400">{a.created_at}</div>
+                </div>
+              ))}
+              {!setup.activity.length && <p className="text-sm text-slate-400">No activity yet.</p>}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}

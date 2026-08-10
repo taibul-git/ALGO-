@@ -1,0 +1,578 @@
+TG NAME,ACCOUNT INFORMATION,SUBSCRIPTION,SETUP,STATUS,NOTE,VPS No.,ID,PARAMETERS
+Peter Lamberti,Remove - USDJPY pair,Solved,1.0,Running,,CV6,10125.0,0.01
+Majkel,Turn off his Algo,Solved,1.0,NO BALANCE/WITHDREW,,CV5,10144.0,0.01
+Max,Algo Setup,Solved,1.0,NO BALANCE/WITHDREW,,MASTER,10112.0,lot size 0.04 for both gold and fx
+Richard Bodo,Turn off Algo and pause the subscription ,Solved,1.0,Running,,CV8,10025.0,"Risk settings: XAUUSD:0.02,USDJPY:0.02"
+TT,Account Replace,Solved,1.0,Running,,CV8,10149.0,"Risk settings: XAUUSD:0.04,USDJPY:0.04"
+Rafik,Wants to stop algo from his account until he informs us to turn on again,Solved,1.0,Running,,CV9,10105.0,"Risk settings: XAUUSD:0.02,USDJPY:0.02"
+Annie Riya,Algo Trial off,Solved,1.0,Running,,CV9,10104.0,"Risk settings: XAUUSD-std:0.02,USDJPY-std:0.02"
+hittps100,Remove - Gold Pair ,Solved,1.0,Running,,CV10,10098.0,"XAUUSD:0.8,USDJPY:0.8"
+Marco ITA,ALGO-STOP,Solved,1.0,Running,,CV2,10071.0,"Risk settings: XAUUSD:0.3,USDJPY:0.3"
+Paul Davidson789,ALGO-STOP,Solved,1.0,Running,,CV4,10115.0,"Risk settings: XAUUSD:0.02,USDJPY:0.02"
+Gideon Owusu,ALGO-STOP,Solved,1.0,Running,,CV4,10096.0,"XAUUSD:0.01,USDJPY:0.01"
+Jad Darwich,Lot size change-0.2,Solved,1.0,Running,,MASTER,10112.0,"Risk settings: XAUUSD:0.2,USDJPY:0.2"
+TT,Do lot size half,Solved,0.0,,,,10111.0,
+Jose Antonio Garcia De Albeniz,Use lower lot size,Solved,1.0,Running,,CV11,10086.0,"XAUUSD:0.01,USDJPY:0.01"
+Shiv Charan Jakhor,Wants to close Algo- needs funds to move to dubai,Solved,1.0,Running,,CV11,10144.0,"XAUUSD:0.05,USDJPY:0.05"
+TT,wants to close all the accounts,Solved,0.0,,,,,
+TT,wants to close all the accounts,Solved,0.0,,,,,
+Max,ALGO-STOP,Solved,0.0,,,,,
+@jaddarwich007,ALGO-STOP,Solved,0.0,,,,,
+Md Sahin Talukder,He is claiming there hasn't been any profit in his account for the past 3 months,Solved,0.0,,,,,
+Ab Malik,"Wants to set the algo and guardian again.
+Algo 
+1.MT5
+2.540149021
+3.Ftmobeaten_590
+4.FTMO-Server4
+5.49,312
+6.prop firm
+7.0.3
+Guardian- License created
+1.SSF6912566752
+2.Abubaker Malik
+3.540149021
+4.abmalik5900@gmail.com",Solved,0.0,,,,,
+Drazen,wants to close the account,Solved,0.0,,,,,
+Drazen,Account Replace from 1420115128 to 9424607,Solved,0.0,,,,,
+TT,Wants to active this account (430172866),Solved,0.0,,,,,
+hittps100,ALGO-STOP,Solved,0.0,,,,,
+Ab Malik,Replace lot size from 0.2 to 0.35,Solved,0.0,,,,,
+NEPO TISM,Algo is Not Working- Last trade placed on 17th January.,Solved,0.0,,,,,
+Nilesh,ALGO-STOP,Solved,0.0,,,,,
+Ab Malik,Lot size Replace from 0.17 to 0.30 ,Solved,0.0,,,,,
+Alex Mazaheri,Account Replace from 172307 to 51669603,Solved,0.0,,,,,
+Peter Lamberti,ALGO-STOP,Solved,0.0,,,,,
+Biju,"Account Replace, 
+
+Login - 211537
+Pwd - M@d@rch0d!!!
+Server - Intertrader-Server",Solved,0.0,,,,,
+Maria Windarini,the balance is still 25k and no trade history at all.,Solved,0.0,,,,,
+Rajiv Agarwala,ALGO-STOP,Solved,0.0,,,,,
+Karim,ALGO-STOP,Solved,0.0,,,,,
+Catwoman,ALGO-STOP,Solved,0.0,,,,,
+@pkumartelegram,change account number to 8786723,Solved,0.0,,,,,
+Jen Martin,Increased account balance to $3000 aud,Solved,0.0,,,,,
+Christopher Winters,Algo setup ,Pending,0.0,,,,,
+David Flores,Algo setup ,Pending,0.0,,,,,
+Ayanda Dlomo,Shared the correct password. Updated in the Client Info ,Solved,0.0,,,,,
+Ludovic Bart,"Wants to replace the account to 13437455.
+
+13437455
+kciVB17##
+FundedNext-Server2
+Propfirm 100k
+5% daily drawdown
+10% total",Solved,0.0,,,,,
+Eileen,move her acc to another vps-closing CV8,Solved,0.0,,,,,
+Ole Tjørnehøj,move her acc to another vps-closing CV11,Solved,0.0,,,,,
+~ Sam ~,"Wants to replace the account to 9123772.Can’t loose more than 3% per day and can’t lose more than 8% total
+
+9123772
+75*gZlgm#C
+NeolinCapitalMarket",Pending,0.0,,,,,
+Jen Martin,changes risk reward ratio to 1 %,Solved,0.0,,,,,
+Ludovic Bart,"Wants to change back to the previous Prop Firm account
+
+MT5
+Login: 7415363528
+Password:Cb2Ci6t*G
+Server: Wealthway-Demo
+Balance: 25k
+Prop firm
+Daily drawdown: 5%
+Total Drawdown: 10%",Solved,0.0,,,,,
+Xristos_ pv,Wants to close the account,Solved,0.0,,,,,
+Cristian,"Account replace with,  
+
+1. MT5
+2. Account Number : 961440
+3. Account Password :  Qp1#fk6LwXabQ1
+4. Account Server ID : Coinexx - Live
+5. Account Balance : $300
+6. Personal Account",Solved,0.0,,,,,
+Mazeed,Has withdrew his funds. will be joining us later,Solved,0.0,,,,,
+Ludovic Bart,Wants 0.4 lot size,Solved,0.0,,,,,
+Yuriah Swanegan,provided the MT4 exe file,Solved,0.0,,,,,
+Ayanda Dlomo,Request Withdraw the Use of the EA,Solved,0.0,,,,,
+Excel Ese,Wants to close Algo,Solved,0.0,,,,,
+Jose Antonio Garcia De Albeniz,Algo made him lose $2500,Solved,0.0,,,,,
+@mohsinbuzz,Wants to close Algo. lost $500,Solved,0.0,,,,,
+Mohammad K,Algo set-up,Solved,0.0,,,,,
+TT,ALGO-STOP- closed by Takia,Solved,0.0,,,,,
+TT,"please add this demo account to the ALGO .  thanks                           Are you using Mt4 or Mt5 or C-trader? MT4 
+2. Account Number : 2145942268
+3. Account password :  GZcuYV3H
+4. Account Server ID :  EightcapLtd-Demo3
+5. Account Balance : 100'000 USD 
+6. Prop Firm or Personal Account? : Personal Demo",Solved,0.0,,,,,
+~ Sam ~,Claiming the Algo is trading in his account.- Closed the account,Solved,0.0,,,,,
+Jen Martin,ALGO-STOP,Solved,0.0,,,,,
+@fortunegroupz,ALGO-SETUP-PENDING,Solved,0.0,,,,,
+Erik,ALGO-STOP,Solved,0.0,,,,,
+Muzammil Fakurudheen,Claiming Algo is making loss,Solved,0.0,,,,,
+Ludovic Bart,"Shared new accont, close the 7415363528 account.",Solved,0.0,,,,,
+Jagadeesh,Lot Size Change from 0.02 to 0.04,Solved,0.0,,,,,
+Maria Windarini,ALGO-STOP,Solved,0.0,,,,,
+@fortunegroupz,ALGO-STOP,Solved,0.0,,,,,
+@fortunegroupz,ALGO-STOP,Solved,0.0,,,,,
+Narendra,"Kindly, share these information here-
+1.Are you using Mt4 or Mt5 or C-trader? Mt5
+2. Account Number: 44724443
+3. Account password: gAm6yPA@
+4. Account Server ID: OctaFX-Real2
+5. Account Balance: 1000
+6. Prop Firm or Personal Account?: personal
+7. Any Preferred Lot Size? Any lot size that doesn’t risk capital is ok.",Solved,0.0,,,,,
+OYEKAZFXTRADING,ALGO-STOP,Solved,0.0,,,,,
+Emiel,ALGO-STOP,Solved,0.0,,,,,
+Ajit Baath,change his password to -   Ajit@abc11,Solved,0.0,,,,,
+Altus Muller,ALGO-STOP,Solved,0.0,,,,,
+GourmetMarketer,"Not placing any trader, Algo never traded ",Solved,0.0,,,,,
+Steve Roy,Algo stopped placing trades since March 12th,Solved,0.0,,,,,
+@BeardedKaptain,"1-MT5 
+2-631503 
+3-Apex2025!!
+4-FusionMarkets-Demo
+5-$10,000
+6-Personal Demo. Once I get a feel for it I’m gonna move it to Prop.",Solved,0.0,,,,,
+Steve Roy,ALGO STOPPED ,Solved,0.0,,,,,
+Jim Robinson,Lot change from 0.02 to 0.06,Solved,0.0,,,,,
+Adolfo Tiozzo,Algo Settings Issue,Solved,0.0,,,,,
+Adolfo Tiozzo,new password: Katy@83!!,Solved,0.0,,,,,
+Christophe,LOT size 0.01,Solved,0.0,,,,,
+Neelesh Nair,Needs to upgrade his license to Lifetime,Solved,0.0,,,,,
+Raul Garcia,"15 days ALGO SET UP      1. Mt5
+2 . 5094885
+3.   .Md79Nek4MFgRgU
+4. eightcapglobal-live
+5. 714.95$
+6. Personal account 
+7. I don’t know",Solved,0.0,,,,,
+Ajit Baath,New password update :    tikxu9-8C,Solved,0.0,,,,,
+Neelesh Nair,Algo isn't taking more then one trade per day. ,Solved,0.0,,,,,
+Narendra,Wants to close Algo,Solved,0.0,,,,,
+@BeardedKaptain,Wants to replace the account but didn't provide the correct information. ,Solved,0.0,,,,,
+@rgmyt078,"Wants to stop  demo account from our end . 
+The demo account setup was good , now need a real account setup details for him . 
+he wants to set algo in him own VPS . provided the real account details.",Solved,0.0,,,,,
+@Achisholm,"Trades without stop loss hit TP last week. Now, trades hit SL consistently. Algo behavior inconsistent.",Solved,0.0,,,,,
+GTX,Algo isn't taking trade for more than 36 hours,,0.0,,,,,
+@Disraj23,Algo 1month setup,Solved,0.0,,,,,
+Isaiah Smith,"Lot size .05 
+Account balance :872
+Account number 43729
+Password Vy40(MWe&
+MT4 platform
+Server longhornfx",,0.0,,,,,
+Isaiah Smith,Paid $64 for 1 year of VPS service ,,0.0,,,,,
+Isaiah Smith,"informed the client that the Algo setup is done, as he was constantly asking. ",,0.0,,,,,
+Nadi,Algo is lossing constantly. ,Solved,0.0,,,,,
+@GTForexGOLDSignals,he is claiming his 80% capital is gone and the algo isnt placing any recovery trades. ,Solved,0.0,,,,,
+John Garvey,wants to know the default settings for Algo,Solved,0.0,,,,,
+@Disraj23,"urgent algo set up, 1 month",Solved,0.0,,,,,
+Greg,Algo isn't taking trade in last 4days.  ,Solved,0.0,,,,,
+Norbi, configure algo  on another account ?,,0.0,,,,,
+Greg, algo hasn't placed a trade on my account since the 14th April added the history screenshot ,Solved,0.0,,,,,
+Dennis,Algo never placed a trade since the stup,Solved,0.0,,,,,
+@BeardedKaptain,Algo not trading,Solved,0.0,,,,,
+Shawn Stephen,Want to know the preferable lot size and  leverage he  should in his account ,Solved,0.0,,,,,
+@Disraj23,didn’t get any entries on the account,Solved,0.0,,,,,
+Seucy Chicken,client wants to remove the ALGO from trading account.,Solved,0.0,,,,,
+@Disraj23,Algo not trading,Solved,0.0,,,,,
+Seucy Chicken,"Client wants know the updates , he wants to remove algo from our vps ",Solved,0.0,,,,,
+allen nelson,setup,Pending,0.0,,,,,
+@Geldfabrik,Asked update about the setup,Solved,0.0,,,,,
+@Disraj23,"Algo not trading,-----Client claimed that the issue is solved.",Solved,0.0,,,,,
+Brian Louis,"algo set up,",Solved,0.0,,,,,
+$$$$,"No trade place, need to extend the subscription as 15 days trial",Solved,0.0,,,,,
+Dennis, algo hasn't placed any trade in the last 10days.  ,Solved,0.0,,,,,
+@GTForexGOLDSignals,stop algo trial,Solved,0.0,,,,,
+Norbi,stop algo trial,Solved,0.0,,,,,
+Minaam Farooq,algo set up ,Solved,0.0,,,,,
+Jackie jia,algo set up,Solved,0.0,,,,,
+JAA,algo set up,Solved,0.0,,,,,
+allen nelson,Gave new info for setup.Updated information in the Client info sheet,Solved,0.0,,,,,
+Minaam Farooq,"want to change the account to this demo account:
+1. Mt5
+2. 242947415
+3. tubre1-gajcYw
+4. Exness-MT5Trial
+5. 10043
+6. Personal demo
+7. 0.5x",Solved,0.0,,,,,
+MR. C.,He wants to stop algo trading,Solved,0.0,,,,,
+De Walt,algo set up,Solved,0.0,,,,,
+allen nelson,algo set up. drafted to inform alex,Solved,0.0,,,,,
+PR_NS_LS123,algo set up,Solved,,,,,,
+Hol Lul,algo set up,Solved,,,,,,
+Steve Roy,Algo is not taking trades,,,,,,,
+allen nelson,algo setup,Solved,,,,,,
+PR_NS_LS123,"is it possible to have Currency pairs, BTCUSD, OIL, and also the gold regular basis? He is thinking about the gold jump and entry area is critical , REPLY HIM ",Solved,,,,,,
+Brian Louis,He is asking if he can update anything so that he get better result from SSF Algo,Solved,,,,,,
+TT,The last trade was on 16th of April. Algo isn't taking any trade then ,Solved,,,,,,
+Satnam Singh,algo set up,Solved,,,,,,
+JAA,issues with algo,Solved,,,,,,
+Dis Raj,Algo is having constant loss. Client is getting angry. ,Solved,,,,,,
+Minaam Farooq,some queries regarding the prop firm challenge,Solved,,,,,,
+Eddie,algo set up,Solved,,,,,,
+Eldenrow A.g society,Algo setup,Solved,,,,,,
+Greg,Algo stop,Solved,,,,,,
+Dhravnika Modi,Algo setup,Solved,,,,,,
+Reginald Knox,Algo setup,Solved,,,,,,
+@MR_BOOF,Algo setup,,,,,,,
+Eldenrow A.g society,change lot size to 0.1,,,,,,,
+Eddie,"Change the lot size from 0.02 to 0.04, reply to him in support if possible. he wanted to know if it's advisable or not ",Solved,,,,,,
+Ahmed,Algo setup,Solved,,,,,,
+Ahmed,lot size change to 0.10,Solved,,,,,,
+$$$$,Algo isn't taking trade,Solved,,,,,,
+Eddie,wants to stop algo to use copier in the account. broker trial,Solved,,,,,,
+Hustler,algo setup for 15 days free trial,Solved,,,,,,
+Eldenrow A.g society,lot size change to 0.02,Solved,,,,,,
+Aniruddhsinh Gohil,algo set up,Solved,,,,,,
+Moe Kyaw,algo set up,Solved,,,,,,
+Suresh D,algo set up,Solved,,,,,,
+Lep Jans,algo set up,Solved,,,,,,
+David Moffoot,algo set up,Solved,,,,,,
+Dis Raj,"ALGO is loosing, check his trade history . ",Solved,,,,,,
+Izabela Budziosz,algo set up,Solved,,,,,,
+Jaynesh Parbhu,Algo is facing continuous loss (algo is set up on his VPS).,Solved,,,,,,
+Yyy,He was complaining for making loss,Solved,,,,,,
+ULIOYOR,algo set up... 15 days trial,Solved,,,,,,
+D F,not working in MT5,,,,,,,
+Eddie,algo set up,Solved,,,,,,
+David Moffoot,algo is not taking trades,Solved,,,,,,
+Suresh D,Algo stop,Solved,,,,,,
+Raphael,Algo set up,Solved,,,,,,
+Raul March," Algo set up for 1 month, if the password does not work, contact   the client. He is confused about his password",Solved,,,,,,
+David Moffoot,claimed that his algo is not working,Solved,,,,,,
+Mark S,Algo set up,Solved,,,,,,
+D F,algo set up,Solved,,,,,,
+Mahesh Manoharan,algo set up,Solved,,,,,,
+Mark S,change lot size to 0.2,Solved,,,,,,
+$$$$,setup,Solved,,,,,,
+Minaam Farooq,Upgrade to Lifetime,Solved,,,,,,
+Mahesh Manoharan,Algo Trade issues,Solved,,,,,,
+Devakumar Welikala,Algo setup,Solved,,,,,,
+Steven Tsanidis,Algo setup,Solved,,,,,,
+Moe Kyaw,Algo trade issues,Solved,,,,,,
+Devakumar Welikala,algo set up,Solved,,,,,,
+D F,not getting notifications for algo trades,Solved,,,,,,
+Minaam Farooq,inquired about algo upgrade,Solved,,,,,,
+Izabela Budziosz,algo trade issues,Solved,,,,,,
+D F,algo trade issues,Solved,,,,,,
+Lep Jans,algo set up,Solved,,,,,,
+Kostas Pipelias,algo set up,Solved,,,,,,
+Beggin,"Has setup the algo in his own VPS, now wants to switch to ours.",Solved,,,,,,
+PR_NS_LS123,Requested to change the lot size to 0.04,Solved,,,,,,
+MD  ,Algo set up,Solved,,,,,,
+Jerald,Algo setup,Solved,,,,,,
+Reja Johnson,upgrade the Algo plan to another 1 month,Solved,,,,,,
+David Moffoot,He wants to stop algo trading- closed by Takia,Solved,,,,,,
+James Henrich,PRof firm account ftmo for 1 month also given the note in client info . asked for experts recommendation regarding lot size ,Solved,,,,,,
+Jay,ALGO STOP request- Closed by Takia,Solved,,,,,,
+Mahesh Manoharan,TOLD TO look into his only taking gold no other pairs ,Solved,,,,,,
+Gerald Benichak,ALGO SETUP 1 month,,,,,,,
+Minaam Farooq,Algo making constant losses,Solved,,,,,,
+Petre,Algo setup,,,,,,,
+Hustler,URGENT ALGO STOP- Closed by Takia,Solved,,,,,,
+Abhishek Chandgadkar,Algo making losses. KIndly check and reply to calm down the client.,Solved,,,,,,
+Shaminder Singh,Algo setup,Solved,,,,,,
+Bala Alex,Algo setup,Solved,,,,,,
+Pheng Hwee Tan,"Algo set up, 15 days trial",Solved,,,,,,
+D F,Algo not taking trades,Solved,,,,,,
+Devakumar Welikala,It shows that his link has expired. (he is trying to set the algo himself),Solved,,,,,,
+Pheng Hwee Tan,inquired for algo set up,Solved,,,,,,
+MD,Want to stop the algo ,Solved,,,,,,
+Tyrone F,algo set up,Solved,,,,,,
+Bala Alex,Not taking trades by algo. is there any issue or not ,Solved,,,,,,
+Gerald Benichak,Asked for update about the setup,Solved,,,,,,
+John Garvey,algo setup,Solved,,,,,,
+Charles,algo didn't take trades on thursday and friday. want to know if algo is running or not.,Solved,,,,,,
+Devakumar Welikala,Algo stop from our VPS,Solved,,,,,,
+Mark S,change lot size to 0.01 and told to check account as not opening any trade ,Solved,,,,,,
+Abhishek Chandgadkar,Algo making losses.,Solved,,,,,,
+Çelik,"Algo setup, wants to trade in gold only if possible",Solved,,,,,,
+Minaam Farooq,loss,Solved,,,,,,
+@x02xm,15 days trial set ,Solved,,,,,,
+Md Sahin Talukder,want to know is algo is running or not. Algo has not placed trades for some days.,Solved,,,,,,
+Robert Rich D,inquired for algo set up,Solved,,,,,,
+PR_NS_LS123,"Blown account check,",Solved,,,,,,
+Clovis,Urgent algo setup needed. ,Solved,,,,,,
+Minaam Farooq,Turn off the algo as he is switching to signal ,Solved,,,,,,
+Slimecity89,Algo setup,Solved,,,,,,
+Fem😊,Algo setup,Solved,,,,,,
+James Ezekwe,Trial Algo set up,Solved,,,,,,
+Job (Job Admiraal),Asked for update about the setup,Solved,,,,,,
+JAA,"Algo upgrade to lifetime- 1. MT4
+2. 25295547
+3. AlgoRobo123
+4. RoboForex-Pro-5
+5. 868.85USD
+6. Pro Personal
+7. No Preferred Lot Size? Maximize profit.",Solved,,,,,,
+Ronnit B,"Algo set up, trial period",Solved,,,,,,
+@Lum050,algo set up ,Solved,,,,,,
+Pheng Hwee Tan,"Algo upgrade to Lifeftime from trial
+
+Kindly, share these information here-
+1. Are you using Mt4 or Mt5 or C-trader? Mt5
+2. Account Number: 5101551
+3. Account password: U@Pb7iDl
+4. Account Server ID: EightcapGlobal-Live
+5. Account Balance: USD $4,561. 84
+6. Prop Firm or Personal Account? Personal
+7. Any Preferred Lot Size? No",Solved,,,,,,
+Fem😊,stop algo,Solved,,,,,,
+Ace ,algo set up,Solved,,,,,,
+Aydin,claiming that his algo is not working,Solved,,,,,,
+Dilshod Yadgarov,Algo stop ,Solved,,,,,,
+Jerald,Algo stop to set up new account 103038809,Solved,,,,,,
+Khurum Manzoor,Algo setup,Solved,,,,,,
+Ajay,He changed his acc password and changed back to the the old one again. So he wants to check it will not create any issues.,Solved,,,,,,
+FX,Algo setup,Solved,,,,,,
+Tod Foltyn,Algo setup,Solved,,,,,,
+Robert Rich D,claiming that he is facing continuous loss by using algo and want to stop the algo on his funded account,Solved,,,,,,
+@Prestigebfs,This client wants to know the performance of SSF Algo from our side,Solved,,,,,,
+Rich Rise,Lifetime Algo setup,Solved,,,,,,
+Abdou Dubai ,algo set up,Solved,,,,,,
+@Nagario,"1. Are you using Mt4 or Mt5 or C-trader?(mt4)
+2. Account Number(13855959)
+3. Account password(ieatBk31days@)
+4. Account Server ID(xmGlobal -real 9)
+5. Account Balance (500)
+6. Prop Firm or Personal Account?(P.A)
+7. Any Preferred Lot Size?(0.02) ALGO SET UP",Solved,,,,,,
+Raokhursheed104@gmail.com,"MT5 (Deposited 300$ in his exness account)
+Account No= 172601880
+Password =   Khur@10031
+Server      = Exness-MT5Real2
+Balance - 300$
+Real account
+No. Upto the preference of the algo experts ALGO SETUP",Solved,,,,,,
+@ronn117,stop algo trial,Solved,,,,,,
+Reginald Knox,stop selling gold on my account ,Solved,,,,,,
+Khursheed Ali,"Claim algo not working, showing running status. Have look on it if ot's working properly",Solved,,,,,,
+ARTUR,The program itself opened a position for growth and decline at the same time. Automatically,Solved,,,,,,
+@x02xm,he wants to stop his algo,Solved,,,,,,
+Ace,Client reports that the Algo on another account hasn't executed any trades and is considering a chargeback if it remains inactive for a month.,Solved,,,,,,
+Khursheed Ali,"He wants to know, why his account balance is $0",Solved,,,,,,
+MR. C.,"Sent ALGO history,says ALGO always hits SL",Solved,,,,,,
+Benedict Nyathi,Algo setup,Solved,,,,,,
+MR. C.,He is claiming that Algo is a scam,Solved,,,,,,
+Rich Rise,He wants to stop the Algo ,Solved,,,,,,
+James Ezekwe,He wants to stop the Algo ,Solved,,,,,,
+Mujib Kalantar,Wants the algo to be stopped for now ASAP,Solved,,,,,,
+Gerald Benichak,Gave wrong account info before updated info given in client info,Solved,,,,,,
+Juraj Lapos,Wants to change the lot size to 0.04,Solved,,,,,,
+Oluwatoyin,"Algo Set-up, 1. Mt5
+2. 99347
+3. f*k5`)>4UO
+4. AssexmarketsGlobal-Trade
+5. 1000
+6. Personal account 
+7. Advice",Solved,,,,,,
+Abdou Dubai,Account close,Solved,,,,,,
+Juraj Lapos,claiming Algo or trades 0.02 te nicche instead of 0.04.,Solved,,,,,,
+Gerald Benichak,"Said-
+There were some technical issue with the account,
+and I had to get them resolved.
+
+Please use MT4, account 24403843, password: Fxx748#$ server:forex.com-Live103 Bal: $320 Personal Lot: .01",Solved,,,,,,
+Rudzani Kevin,Algo set-up ,Solved,,,,,,
+Khurum Manzoor,Didn't place any trade ,Solved,,,,,,
+Favour Onyinyechi Edeh,Algo isn't taking any trade,Solved,,,,,,
+Favour Onyinyechi Edeh,Want to replace the Algo account,Solved,,,,,,
+Rudzani Kevin,Wannt to stop  the Algo ,Solved,,,,,,
+Khurum Manzoor,Need to extend the algo for 15 days,Solved,,,,,,
+AFC Trader,Algo isn't taking trade for last 3days,Solved,,,,,,
+Oluwatoyin,wants to pause his algo,Solved,,,,,,
+Sonaid,algo set up,Solved,,,,,,
+. .,algo set up,Solved,,,,,,
+Dr.Anas Amouri,algo set up,Solved,,,,,,
+XOOPLUS ,algo set up,Solved,,,,,,
+Juraj Lapos,Want to stop the algo ,Solved,,,,,,
+Geoffrey Southam,algo set up,Solved,,,,,,
+XOOPLUS ,Want to stop the algo ,Solved,,,,,,
+devpa725@gmail.com,he gave his lot size and account balance,Solved,,,,,,
+NR,stop his algo,Solved,,,,,,
+Dr.Anas Amouri,he wants to turn his news filter on and also wants to turn the algo off,Solved,,,,,,
+Geoffrey Southam,Asked about setup update,Solved,,,,,,
+Tod Foltyn	,Algo loss complain,Solved,,,,,,
+Nks,algo set up,Solved,,,,,,
+Sonaid,want to stop the algo ,Solved,,,,,,
+Fabio,Algo broker trial setup ,Solved,,,,,,
+ARTUR,He wants to stop Algo on his account,Solved,,,,,,
+Dk Boss,"Complaining that, his algo don't work",Solved,,,,,,
+NKS ,I don’t see any positions or trades in my account.,Solved,,,,,,
+Jannicke,Algo setup,Solved,,,,,,
+Haider Imran,Algo setup,Solved,,,,,,
+Game,Want to replace the Algo account,Solved,,,,,,
+Khursheed Ali,"Wants to set-up on new account
+
+1. MT 5 
+2. Account No # 336497
+3. Account Possword  # Sobia@10031
+4. Account Ballance $300
+5. Server  # NeuronMarkets Server",Solved,,,,,,
+Haider Imran,Algo is not placing any trade ,Solved,,,,,,
+Haider Imran,Algo lot size change to 0.06,Solved,,,,,,
+Ivan Poral,Algo setup,Solved,,,,,,
+Jean-françois PAYOT,Algo setup,Solved,,,,,,
+. .,lot size change from 0.02 to 0.03,Solved,,,,,,
+Fabio,lot size change from 0.02 to 0.04,Solved,,,,,,
+Dk Boss,Algo setup,Solved,,,,,,
+Chris ,Algo setup,Solved,,,,,,
+Franz 🇯🇲🇺🇸🇯🇲🇺🇸🏖🏝☀️,Algo trial setup,Solved,,,,,,
+Chusak Buakaew,Algo trial setup,Solved,,,,,,
+Conor Baxter,Algo trial setup,Solved,,,,,,
+Shahab Ali,Algo setup,Solved,,,,,,
+Franz,Algo setup,Solved,,,,,,
+Samuel ,Algo setup,Solved,,,,,,
+Oliver ,Algo trial setup,Solved,,,,,,
+Cristian,have made the deposit for  account. Wants the algo bot to be ready for the account,Solved,,,,,,
+Nikisnikis311,Algo trial setup,,,,,,,
+Lisa Asano,Algo trial setup,Solved,,,,,,
+Tope Fish,Algo trial setup,Solved,,,,,,
+Gerald Benichak,Algo is not working ,Solved,,,,,,
+Famousone CHN,Algo trial setup,Solved,,,,,,
+Rafi Khan,Algo trial setup,Solved,,,,,,
+bootes ,Algo trial setup,Solved,,,,,,
+Benoit STUDER,algo 1m,Solved,,,,,,
+Nks,Want to swtich from cents account to standard account ,Solved,,,,,,
+Shahab Ali,Lot size change to 0.20,Solved,,,,,,
+Joseph  ,Algo trial setup,Solved,,,,,,
+Chid Jagannath,algo 1 month,Solved,,,,,,
+Guensly Juliana,Algo set up,Solved,,,,,,
+Light ,Algo set up,Solved,,,,,,
+Tejas ,Algo set up,Solved,,,,,,
+JJJ ,Algo trial set up,Solved,,,,,,
+Shahab Ali,asked to keep his RRR 1:2,Solved,,,,,,
+Jannicke,Complained that Algo took trade during the News Hour,Solved,,,,,,
+Samuel ,Algo took trades before 1 min of News Hour,Solved,,,,,,
+Lisa Asano,made withdrawal even when they were instructed not to,Pending,,,,,,
+Jannicke ,Algo one-month setup,Solved,,,,,,
+Nicharee Williams,algo set up,Solved,,,,,,
+Shahab Ali,"Says ALGO RRR was not set to 1:2, Shared screenshot of trade!
+Kindly check!",,,,,,,
+Oliver ,Algo is putting him in loss,Solved,,,,,,
+Shahab Ali,Claimed that Algo used a 2:1 RRR ratio and he is frustraded about the Algo,,,,,,,
+Tejas ,Claimed that lossing all of his money,Solved,,,,,,
+Geoffrey Southam,"concerned about the Algo’s recent underperformance, RR ratio, reaction to sharp market changes",Solved,,,,,,
+Samuel ,Constantly losing money because of Algo. He wants to stop using it,Solved,,,,,,
+ETX ,algo setup,Solved,,,,,,
+Nicharee Williams,algo stop,Solved,,,,,,
+Shiv Charan Jakhor,"Algo setup Mt5
+5081644
+Password-Dujod@123
+Eight cap Global 
+509$
+Personal account 
+Lot size according to you which always account safe",Solved,,,,,,
+ETX ,said algo placing trade on 0.02 lot size instead of 0.05,Solved,,,,,,
+Franz 🇯🇲🇺🇸🇯🇲🇺🇸🏖🏝☀️,"Because of the frequent loss, she wants to disconnect the Algo",Solved,,,,,,
+Shahab Ali,"Complaing about huge losss, multiple sell trade all in loss. Also complaing about RR ratio. Ratio should to be in profit on average",Solved,,,,,,
+Haider Imran,Want to stop the algo ,Solved,,,,,,
+Sajin Singh M,"algo setup, I have updated the server ID in the client info tab.",Solved,,,,,,
+Conor Baxter,He wants to stop the Algo ,Solved,,,,,,
+Jannicke ,Wants to know detailed updates on the trades that were made by algo on 8 august in our ALGO acc.,Solved,,,,,,
+Sajin Singh M,wants the algo setup to completed before the market opens on Monday.,Solved,,,,,,
+Jaynesh Parbhu,algo setup,Solved,,,,,,
+,,,,,,,,
+Sajin Singh M,Algo making loss,Solved,,,,,,
+Jannicke ,Algo making loss,Solved,,,,,,
+Shahab Ali,Algo making loss,Solved,,,,,,
+Tod Foltyn,making loss,Solved,,,,,,
+Light ,lot size change to 0.01,Solved,,,,,,
+Favour Onyinyechi Edeh,lifetime upgrade,Solved,,,,,,
+Sajin Singh M,lot size change to 0.03,Solved,,,,,,
+Morné Mellett,algo setup,Solved,,,,,,
+Toluwani ,algo setup,Solved,,,,,,
+Irving Pirela,algo setup,Solved,,,,,,
+Toluwani ,lot size change from 0.05 to 0.1,Solved,,,,,,
+Mikel Majers,Algo setup,Solved,,,,,,
+Oliver ,he wants to extend his free trial,Solved,,,,,,
+Irving Pirela,"Daily drawdown limit: 5%
+Drawdown type: Normal
+Maximum Loss: 10%
+
+He provided his further information for prop firm",Solved,,,,,,
+Winston Anderson,algo setup,Solved,,,,,,
+Ntazana ,algo setup,Solved,,,,,,
+Tod Foltyn,"Algo is not profitable. Stated his issues on 12 August, but no one got back to him.",Solved,,,,,,
+Shahab Ali,Risk reward still not working out in 3rd week now,Pending,,,,,,
+"JJJ 
+",ALGO SETUP,Solved,,,,,,
+"Daniel S.
+",Free broker tral.,Solved,,,,,,
+Kairoz Jabbar,Algo setup,Solved,,,,,,
+Favour Onyinyechi Edeh,"The Algo hasn't taken any trades since the weekend.
+",Solved,,,,,,
+Daniel S.,Shared server name for algo setup. Added in the notes of Client Info,Solved,,,,,,
+Favour Onyinyechi Edeh,Replace with 5101383,Solved,,,,,,
+Steve Roy,Replace account with 21773663 (Prop Firm),Solved,,,,,,
+Ayanda ,Algo setup,Pending,,,,,,
+Nawapol Sriwattanasub,Algo setup,Solved,,,,,,
+Pri Haruwarta,Blance update. He has deposited $130 in his account and want to change lot size to 0.01,Solved,,,,,,
+Kari🍅 Turpela,algo setup,Solved,,,,,,
+SAT ,algo setup,Solved,,,,,,
+Toluwani ,lifetime upgrade,Solved,,,,,,
+Favour Onyinyechi Edeh,no trades being taken on the account,Solved,,,,,,
+Jean-françois PAYOT,algo setup,Solved,,,,,,
+Toluwani,Lot size 0.2,Solved,,,,,,
+MA ,algo setup- broker trial,Solved,,,,,,
+Ziad Zabet,algo setup,Solved,,,,,,
+MD SHOYEB HOSSAIN,broker trial,Solved,,,,,,
+Sajin Singh M,have withdrawn all the money from Algo account,Solved,,,,,,
+Ziad Zabet,His Algo is making loss,Solved,,,,,,
+Mehdi ,broker trial,Solved,,,,,,
+JJJ ,Algo stopped  taking trades.,Solved,,,,,,
+Tod Foltyn,Algo not working,Solved,,,,,,
+Jean-françois PAYOT,Algo no trades for 2 days,Solved,,,,,,
+Bumblebee ,Algo setup,Pending,,,,,,
+Jaynesh Parbhu,Algo no trades for 2 days,Solved,,,,,,
+Neelesh Nair,ALGO lost 50% in last 5 months,Solved,,,,,,
+Tod Foltyn,algo no trade for 6 days,Solved,,,,,,
+Mehdi ,Angry about Algo placing a trade without SL which resulted in loss.,Solved,,,,,,
+Daniel S.,"Algo placing a trade without SL which resulted in loss. (Angry). He wants explanation ,please connect to him regarding this.",Solved,,,,,,
+RAKESH PATEL,Algo setup,Solved,,,,,,
+Shiv Charan Jakhor,His Algo has placed trades without SL and TP,Solved,,,,,,
+Mehdi ,He is frustrated because the Algo on his account has placed trades without SL and TP.,Solved,,,,,,
+Ziad Zabet,His Algo is making loss,Solved,,,,,,
+Tod Foltyn,His Algo is making loss,Solved,,,,,,
+Favour Onyinyechi Edeh,His Algo has placed trades without SL and TP,Solved,,,,,,
+Franklin ,Algo setup,Solved,,,,,,
+Jean-françois PAYOT,algo loss,Solved,,,,,,
+RAKESH PATEL,wants lot size to be 0.4,Solved,,,,,,
+Bumblebee ,algo set up,Pending,,,,,,
+Tod Foltyn,Want to replace the Algo account,Solved,,,,,,
+H M,Algo set up,Solved,,,,,,
+H M,Wants to set fixed leverage in Algo if that's possible.,Solved,,,,,,
+Job Admiraal,Algo STOP,Solved,,,,,,
+SAT ,"His Algo account got blown because the Algo placed 2 signals without SL, wants us make sure that the Algo follows risk management and adds SL with the signals",Solved,,,,,,
+Shiv Charan Jakhor,His algo is incuring loss and blowing his account,Solved,,,,,,
+Shahab Ali,Algo making loss and wants refund because of it,Solved,,,,,,
+Tod Foltyn,"Algo losses, it's been 3 month still not recovering. Client is furious now",Solved,,,,,,
+Shahab Ali,he wants the algo to stop trading and wants a refund for losing trades.,Solved,,,,,,
+Bumblebee ,He deposited $512 for the Algo to setup as the previous balance was too low. wants the lot size to be 0.03 ,Solved,,,,,,
+Tod Foltyn,"Previously he was told to use  0.01 lot size, while he already wanted suggestion from algo team about lot size and it was set from our end. 
+This is time he wants a more safer lot size to avoid lot loss. He was not happy that we told him to change lot size while were the one who set his lot size. ",Solved,,,,,,
+Asb ,Algo set up,Solved,,,,,,
+Mujib Kalantar,Algo set up,Solved,,,,,,
+Light ,Algo set up,Solved,,,,,,
+Narlan Rabara,Algo set up,Solved,,,,,,
+moya sudd,Algo set up,Solved,,,,,,
+shaun allison,Algo set up,Solved,,,,,,
+Nadeem Ahmed Khan ,Algo set up,Solved,,,,,,
+Narlan Rabara,Loss more and win less. Want to change the ratio to gain more,Solved,,,,,,
+Asb ,"Want to set the algo in new account, new account number- 10683517",Solved,,,,,,
+Sajin Singh M,wants to set the algo in a new account - 5112169,Solved,,,,,,
+Asb ,Wants to know why algo experts set lot size to 0.05 on his new algo account,Solved,,,,,,
+Shiv Charan Jakhor,"He wants to stop his Algo operation after incurring a significant loss, which reduced his account balance from $500 to $35.",Solved,,,,,,
+moya sudd,Algo stop ,Solved,,,,,,
+Tod Foltyn,Algo is making constant losses,Solved,,,,,,
+Narlan Rabara,Algo place 1 trade without SL also wants to minimize the SL ,Solved,,,,,,
+Nadeem Ahmed Khan ,Algo is making losses ,Solved,,,,,,
+S M Iqbal Uddin,Algo set  up ,Solved,,,,,,
+Kari🍅 Turpela,Algo stop ,Solved,,,,,,

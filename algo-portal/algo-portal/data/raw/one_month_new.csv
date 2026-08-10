@@ -1,0 +1,1245 @@
+Client Nature,Telegram Name,Trading Platform, Trading Account Number,Account password,Server Name,Server ID,Account Balance,Account Type,Fixed Lot Size,Algo Plan,Client Information, NOTE,SETUP,STATUS,VPS No.,ID,PARAMETERS,ACTIVATION,EXPIRE DATE,Unnamed: 20
+New Client,Dawido ,MT5,13759373,ckwTV83##,FundedNext-Server2,FundedNext-Server2-Hedge,,Prop Firm,,Algo 1 Month,"MT5
+13759373
+ckwTV83##
+FundedNext-Server2
+FundedNext-Server2-Hedge
+Prop Firm",#REF!,0.0,EXPIRED,CV4,,"XAUUSD:0.02,USDJPY:0.02",2025-09-30 00:00:00,2025-10-30 00:00:00,
+New Client,Tony ,MT4,80054704,1Nenechino2002*,PlexyTrade-Live,,350.0,Personal,0.01,Algo 1 Month,"MT4
+80054704
+1Nenechino2002*
+PlexyTrade-Live
+350$
+Personal
+0.01",,0.0,,,,,,,
+New Client,Husnain Sohail,MT5,5106049,Husnain@890,"PrimusMarkets-Live1
+","UK, Hedge
+",500.0,Personal,0.1,Algo 1 Month,"MT5
+5106049
+Husnain@890
+PrimusMarkets-Live1
+
+UK, Hedge
+
+500$
+Personal
+0.1",,0.0,EXPIRED,CV11,,"XAUUSD-:0.01,USDJPY-:0.01",2025-10-07 00:00:00,2025-11-07 00:00:00,
+Account Replace,Tony ,MT4,1123260435,!NuBlock1,PlexyTrade-Demo,,5279.76,Personal,0.01,Algo 1 Month,"MT4
+1123260435
+!NuBlock1
+PlexyTrade-Demo
+5,280$
+Personal
+0.01",,0.0,EXPIRED,CV10,,"XAUUSD:0.01,USDJPY:0.01",2025-10-09 00:00:00,2025-11-09 00:00:00,
+New Client,Ivan Poral ,MT5,19513358,941trtKCN#,CFI3-real,50945243,415.59,Personal,0.05,Algo 1 Month,"MT5
+19513358
+941trtKCN#
+CFI3-real
+50945243
+416$
+Personal
+0.05",,0.0,EXPIRED,CV12,,"XAUUSD:0.01,USDJPY:0.01",2025-10-10 00:00:00,2025-11-10 00:00:00,
+New Client,Bongani Radebe,MT5,247647641203,)BCt*1Wt78,ClassicGlobal-Server,,,Prop Firm,0.1,Algo 1 Month,"MT5
+247647641203
+)BCt*1Wt78
+ClassicGlobal-Server
+Prop Firm
+0.1",,0.0,EXPIRED,CV6,,"XAUUSD:0.01,USDJPY:0.01",2025-10-10 00:00:00,2025-11-10 00:00:00,
+New Client,Hamza ,MT5,530338101,)BCt*1Wt78,FTMO-Server3,,100000.0,Prop Firm,1.0,Algo 1 Month,"MT5
+530338101
+)BCt*1Wt78
+FTMO-Server3
+100,000$
+Prop Firm
+1",,0.0,EXPIRED,CV6,,"XAUUSD:0.01,USDJPY:0.01",2025-10-10 00:00:00,2025-11-10 00:00:00,
+Account Replace,Hamza ,MT5,10801933,Tve-srX#6,FundingPips Corp (2),,10000.0,Prop Firm,0.1,Algo 1 Month,"MT5
+10801933
+Tve-srX#6
+FundingPips Corp (2)
+10,000$
+Prop Firm
+0.1",,0.0,EXPIRED,CV6,,"XAUUSD:0.01,USDJPY:0.01",2025-10-10 00:00:00,2025-11-10 00:00:00,
+New Client,S M Iqbal Uddin,MT5,14818309,Shamim01$$,Vantage international gropu, live 7,,Personal,,Algo 1 Month,"MT5
+14818309
+Shamim01$$
+Vantage international gropu
+ live 7
+Personal",,0.0,EXPIRED,,,"XAUUSD:0.01,USDJPY:0.01",2025-10-21 00:00:00,2025-11-21 00:00:00,
+New Client,Asad Ullah,MT4,52012002,Daryakhan9660@,FPMarkets,FPMarketsSC-Live4,,Personal,,Algo 1 Month,"MT4
+52012002
+Daryakhan9660@
+FPMarkets
+FPMarketsSC-Live4
+Personal",,0.0,EXPIRED,CV10,,"XAUUSD:0.01,USDJPY:0.01",2025-10-22 00:00:00,2025-11-24 00:00:00,
+New Client,Matthias ,MT5,89692111,seeU@1mil,Ava-Real 1-MT5,,300.0,Personal,,Algo 1 Month,"MT5
+89692111
+seeU@1mil
+Ava-Real 1-MT5
+300$
+Personal",,0.0,EXPIRED,CV11,,"XAUUSD:0.01,USDJPY:0.01",2025-10-23 00:00:00,2025-11-24 00:00:00,
+New Client,Danny Cater,MT4,410124933,tUAM4Jpr?83*5G,FTMO-Server,,10000.0,Prop Firm,,Algo 1 Month,"MT4
+410124933
+tUAM4Jpr?83*5G
+FTMO-Server
+10,000$
+Prop Firm",,0.0,EXPIRED,CV6,,"XAUUSD:0.01,USDJPY:0.01",2025-10-22 00:00:00,2025-11-24 00:00:00,
+New Client,Zebulon ,MT4,75066548,Kzhare@5991,RoboForex-ECN-3,,100.0,Personal,0.03,Algo 1 Month,"MT4
+75066548
+Kzhare@5991
+RoboForex-ECN-3
+100$
+Personal
+0.03",,0.0,EXPIRED,CV10,,"XAUUSD:0.01,USDJPY:0.01",2025-10-23 00:00:00,2025-11-24 00:00:00,
+New Client,Nada Chaudhry,MT4,1600129988,wuffev-5cEdty$$,ICMarketsSC-Live16,,,Personal,0.8,Algo 1 Month,"MT4
+1600129988
+wuffev-5cEdty$$
+ICMarketsSC-Live16
+Personal
+0.8",,0.0,EXPIRED,CV10,,0.01,2025-10-24 00:00:00,2025-11-24 00:00:00,
+New Client,Gio ,MT5,19142979,Catania1988!,VT Markets,VT Markets Live 2,,Personal,0.1,Algo 1 Month,"MT5
+19142979
+Catania1988!
+VT Markets
+VT Markets Live 2
+Personal
+0.1",,0.0,EXPIRED,CV5,,lot size 0.05,2025-10-23 00:00:00,2025-11-24 00:00:00,
+New Client,Сергей ,MT4,88442312,!Q9Z6cC5kKk, FxPro.com-Real08, FxPro.com-Real08,245.0,Personal,,Algo 1 Month,"MT4
+88442312
+!Q9Z6cC5kKk
+ FxPro.com-Real08
+ FxPro.com-Real08
+245$
+Personal",,0.0,EXPIRED,CV12,,0.01,2025-10-30 00:00:00,2025-12-01 00:00:00,
+New Client,saad q,MT5,251200790,Alqarni2975@#$,Exness-MT5Real33,,1059.0,Personal,0.3,Algo 1 Month,"MT5
+251200790
+Alqarni2975@#$
+Exness-MT5Real33
+1,059$
+Personal
+0.3",,0.0,EXPIRED,CV5,,0.01 only fx,2025-10-31 00:00:00,2025-12-01 00:00:00,
+New Client,Emmanuel ,MT5,81523898,#Ozioma6#,Exness,Exness-MT5Trial10,300.0,Personal,0.02,Algo 1 Month,"MT5
+81523898
+#Ozioma6#
+Exness
+Exness-MT5Trial10
+300$
+Personal
+0.02",,0.0,EXPIRED,CV11,,0.01,2025-11-03 00:00:00,2025-12-03 00:00:00,
+New Client,Arun Raaaj,MT5,11506687,ay^Ys2fJ,Vantagelnternational-Live 3,,400.0,Personal,0.06,Algo 1 Month,"MT5
+11506687
+ay^Ys2fJ
+Vantagelnternational-Live 3
+400$
+Personal
+0.06",,0.0,EXPIRED,CV11,,0.01,2025-11-03 00:00:00,2025-12-03 00:00:00,
+New Client,F Bg,MT4,3081583,Ixtus2025$,US02-Live,Axi DC US1,,Personal,0.003,Algo 1 Month,"MT4
+3081583
+Ixtus2025$
+US02-Live
+Axi DC US1
+Personal
+0.003",,0.0,EXPIRED,CV11,,0.03,2025-11-06 00:00:00,2025-12-08 00:00:00,
+New Client,Kevin ,MT5,4044845,ioFZ%@5d,Xtreammarkets-server,"Access US 2, Hedge",1000.0,Personal,0.05,Algo 1 Month,"MT5
+4044845
+ioFZ%@5d
+Xtreammarkets-server
+Access US 2, Hedge
+1,000$
+Personal
+0.05",,0.0,EXPIRED,CV11,,0.01,2025-11-06 00:00:00,2025-12-08 00:00:00,
+New Client,Bam ,MT4,120031577,HelloTrade101!,XMGlobal-Real 2,XMGlobal-Real 2,300.0,Personal,0.01,Algo 1 Month,"MT4
+120031577
+HelloTrade101!
+XMGlobal-Real 2
+XMGlobal-Real 2
+300$
+Personal
+0.01",,0.0,EXPIRED,CV10,,0.01,Switched to fx VIP gold,Switched to fx VIP gold,
+New Client,Ivan Langurov,MT4,22272340,veyZH63##,FundedNext- Demo,,,Prop Firm,0.02,Algo 1 Month,"MT4
+22272340
+veyZH63##
+FundedNext- Demo
+Prop Firm
+0.02",,0.0,EXPIRED,CV6,,dynamic,2025-11-17 00:00:00,2025-12-17 00:00:00,
+New Client,MAVINPR,MT5,19013682,8yUYfL!R, PUPrime-Live,"AS08, Hedge",500.0,Personal,0.02,Algo 1 Month,"MT5
+19013682
+8yUYfL!R
+ PUPrime-Live
+AS08, Hedge
+500$
+Personal
+0.02",,0.0,EXPIRED,CV5,,0.01,2025-11-17 00:00:00,2025-12-17 00:00:00,
+New Client,Md Abu Kawsar Sarower Siddique,MT4,78334623,Kawsar@1975,XMGlobal-Demo 4,,205.0,Personal,0.01,Algo 1 Month,"MT4
+78334623
+Kawsar@1975
+XMGlobal-Demo 4
+205$
+Personal
+0.01",,0.0,EXPIRED,CV10,,0.01,switched to gold 6,switched to gold 6,
+Account Replace,Asad Ullah,MT5,249380710,Khanasad@9660,Exness,Exness-MT5Real32,,Personal,,Algo 1 Month,"MT5
+249380710
+Khanasad@9660
+Exness
+Exness-MT5Real32
+Personal",,0.0,EXPIRED,CV5,,0.01,2025-10-22 00:00:00,2025-11-24 00:00:00,
+New Client,Isaac Mora,MT5,196092452,vnm1@QE2,MT5Real11,Exness Technologies Ltd,350.0,Personal,,Algo 1 Month,"MT5
+196092452
+vnm1@QE2
+MT5Real11
+Exness Technologies Ltd
+350$
+Personal",,0.0,EXPIRED,CV12,,0.01,2025-11-18 00:00:00,2025-12-18 00:00:00,
+New Client,Rajat Kachoora,MT5,314216485,ac!P@!tC3D,GoatFunded-Server,GoatFunded-Server,146829.85,Prop Firm,,Algo 1 Month,"MT5
+314216485
+ac!P@!tC3D
+GoatFunded-Server
+GoatFunded-Server
+146,830$
+Prop Firm",,0.0,EXPIRED,CV6,,Dynamic,2025-11-20 00:00:00,2025-12-20 00:00:00,
+New Client,Ken (GMT-4) Dewalt,MT4,5205630,!b##d1@Sy@mgbwd,Coinexx-Demo,,9928.0,Personal,0.04,Algo 1 Month,"MT4
+5205630
+!b##d1@Sy@mgbwd
+Coinexx-Demo
+9,928$
+Personal
+0.04",,0.0,EXPIRED,CV12,,0.01,2025-11-24 00:00:00,2025-12-24 00:00:00,
+New Client,Piotr Piotrowski,MT5,55796442,Wp&!Js6!IgXd,Jarosław Dyjeta,Tickmill Eu live,,Personal,,Algo 1 Month,"MT5
+55796442
+Wp&!Js6!IgXd
+Jarosław Dyjeta
+Tickmill Eu live
+Personal",,0.0,EXPIRED,CV13,,0.01,2025-11-24 00:00:00,2025-12-24 00:00:00,
+New Client,Drogo 696,MT5,540275845,kVePPQs26@,FTMO-Server4,,9847.0,Prop Firm,,Algo 1 Month,"MT5
+540275845
+kVePPQs26@
+FTMO-Server4
+9,847$
+Prop Firm",,0.0,EXPIRED,CV6,,Dynamic,2025-11-24 00:00:00,2025-12-24 00:00:00,
+New Client,Miki Mikica,MT4,1600129411,ygwv76,ICMarketsSC-Live16,,,Personal,0.01,Algo 1 Month,"MT4
+1600129411
+ygwv76
+ICMarketsSC-Live16
+Personal
+0.01",,0.0,EXPIRED,CV12,,0.01,2025-11-24 00:00:00,2025-12-24 00:00:00,
+New Client,Adeel abid,MT4,10024224,Soni4addi@1,VantageInternational-Live 16,,,Personal,0.05,Algo 1 Month,"MT4
+10024224
+Soni4addi@1
+VantageInternational-Live 16
+Personal
+0.05",,0.0,EXPIRED,CV10,,0.01,2025-12-03 00:00:00,2026-01-05 00:00:00,
+New Client,Dave Trok,MT5,100474612,Rich@b20_$Y2026,XMGlobal-MT5 5,XM Global Limited,300.0,Personal,0.06,Algo 1 Month,"MT5
+100474612
+Rich@b20_$Y2026
+XMGlobal-MT5 5
+XM Global Limited
+300$
+Personal
+0.06",,0.0,EXPIRED,CV1,,0.01,2025-12-03 00:00:00,2026-01-05 00:00:00,
+New Client,RF Trader,MT4,241938079,"%MO8rK4E
+",FBS-Real-4,FBS-Real-4,440.0,Personal,0.05,Algo 1 Month,"MT4
+241938079
+%MO8rK4E
+FBS-Real-4
+FBS-Real-4
+440$
+Personal
+0.05",,0.0,EXPIRED,CV10,,0.02,2025-12-04 00:00:00,2026-01-05 00:00:00,
+New Client,Ali Sleiman,MT5,510325506,"r62W$!ca91@T
+",FTMO-Server,FTMO-Server,-199113.86,Prop Firm,0.0025,Algo 1 Month,"MT5
+510325506
+r62W$!ca91@T
+FTMO-Server
+FTMO-Server
+-199,114$
+Prop Firm
+0.0025",,0.0,EXPIRED,CV14,,0.05,2025-12-05 00:00:00,2026-01-06 00:00:00,
+New Client,Zubair Rai,MT5,120091855,Abc12345@,Broker Deriv (V) Ltd,DerivVU-Server-03,300.0,Personal,0.03,Algo 1 Month,"MT5
+120091855
+Abc12345@
+Broker Deriv (V) Ltd
+DerivVU-Server-03
+300$
+Personal
+0.03",,0.0,EXPIRED,CV13,,0.01,2025-12-09 00:00:00,2026-02-09 00:00:00,
+New Client,kumar__ sasikumar,MT5,104604076,Forex55@,Exness-MT5Real15,,150.0,Personal,0.01,Algo 1 Month,"MT5
+104604076
+Forex55@
+Exness-MT5Real15
+150$
+Personal
+0.01",,0.0,EXPIRED,CV15,,0.01,2025-12-12 00:00:00,2026-02-12 00:00:00,
+New Client,Giorgi Giorgi,MT5,488438,Nj8KlSIn#a,AquaFunded-Server,,9999.31,Prop Firm,,Algo 1 Month,"MT5
+488438
+Nj8KlSIn#a
+AquaFunded-Server
+9,999$
+Prop Firm",,0.0,EXPIRED,CV14,,0.01,2025-12-15 00:00:00,2026-01-16 00:00:00,
+New Client,ABDULLAH AL MOMEN,MT5,251387790,&&5811Abdullah,Exness-MT5Real33,Exness-MT5Real33,400.0,Personal,0.03,Algo 1 Month,"MT5
+251387790
+&&5811Abdullah
+Exness-MT5Real33
+Exness-MT5Real33
+400$
+Personal
+0.03",,0.0,EXPIRED,CV16,,0.01,2025-12-15 00:00:00,2026-01-16 00:00:00,
+New Client,Giuseppe Marzella,MT5,21600762,7GY@Ld478,VTMarkets-Live 2,,500.0,Personal,0.01,Algo 1 Month,"MT5
+21600762
+7GY@Ld478
+VTMarkets-Live 2
+500$
+Personal
+0.01",,0.0,EXPIRED,CV16,,0.01,2025-12-15 00:00:00,2026-01-16 00:00:00,
+New Client,Patrick Mlimi,MT5,381280647,Wishelgin@123,XMGlobal-MT5 13,,33.0,Personal,0.02,Algo 1 Month,"MT5
+381280647
+Wishelgin@123
+XMGlobal-MT5 13
+33$
+Personal
+0.02",,0.0,EXPIRED,CV12,,0.01,2025-12-17 00:00:00,2026-02-19 00:00:00,
+Account Replace,Zubair Rai,MT5,227928260,@Allah2233#,Exness technology,Exness Real31,333.0,Personal,0.01,Algo 1 Month,"MT5
+227928260
+@Allah2233#
+Exness technology
+Exness Real31
+333$
+Personal
+0.01",,0.0,EXPIRED,CV13,,0.01,2025-12-09 00:00:00,2026-02-09 00:00:00,"228033519
+replaced with this"
+New Client,DaBrave ,MT5,211989810,9li@e3SiR4,AtlasFunded-Server,211989810,25000.0,Prop Firm,0.25,Algo 1 Month,"MT5
+211989810
+9li@e3SiR4
+AtlasFunded-Server
+211989810
+25,000$
+Prop Firm
+0.25",,0.0,EXPIRED,CV14,,0.05,2025-12-19 00:00:00,2026-01-19 00:00:00,
+New Client,VANTE ,MT4,15273805,Longleye1$,STARTRADERFinancial-Live2,,504.0,Personal,,Algo 1 Month,"MT4
+15273805
+Longleye1$
+STARTRADERFinancial-Live2
+504$
+Personal",,0.0,EXPIRED,CV10,,0.01,2025-12-22 00:00:00,2026-01-22 00:00:00,
+Account Replace,Giorgi Giorgi,MT5,541032550,Kx*xE!83?ym,FTMO-Server4,,100000.0,Prop Firm,,Algo 1 Month,"MT5
+541032550
+Kx*xE!83?ym
+FTMO-Server4
+100,000$
+Prop Firm",,0.0,EXPIRED,CV14,,0.07,2025-12-15 00:00:00,2026-01-16 00:00:00,
+New Client,أبو حمزه ,MT4,6042513,Bsamalofe059,"XTB - real4
+","XTB - real4
+",885.0,Personal,0.01,Algo 1 Month,"MT4
+6042513
+Bsamalofe059
+XTB - real4
+XTB - real4
+885$
+Personal
+0.01",,0.0,,,,,,,
+Account Replace,Zubair Rai,MT5,253221992,Atozee@123,Exness-MT5Real34,,,Personal,0.05,Algo 1 Month,"MT5
+253221992
+Atozee@123
+Exness-MT5Real34
+Personal
+0.05",,0.0,EXPIRED,CV20,,0.01,2025-12-09 00:00:00,2026-02-09 00:00:00,
+New Client,Fem😊 ,MT5,1298076,An@mbr@23,STARTRADERFinancial-Live,STARTRADERFinancial-Live,600.86,Personal,,Algo 1 Month,"MT5
+1298076
+An@mbr@23
+STARTRADERFinancial-Live
+STARTRADERFinancial-Live
+601$
+Personal",,0.0,EXPIRED,CV16,,0.02,2026-01-01 00:00:00,2026-02-02 00:00:00,
+New Client,Raafat Malkawi,MT5,249523495,YusraOmar9090_,Exness-MT5Real32,,,Personal,0.1,Algo 1 Month,"MT5
+249523495
+YusraOmar9090_
+Exness-MT5Real32
+Personal
+0.1",,0.0,,,,,,,
+New Client,b patel,MT5,411624889,Shiddh@68,Exness-MT5Real8,,310.0,Personal,0.01,Algo 1 Month,"MT5
+411624889
+Shiddh@68
+Exness-MT5Real8
+310$
+Personal
+0.01",,0.0,EXPIRED,CV13,,0.02,2026-01-01 00:00:00,2026-02-02 00:00:00,
+New Client,Estela 🩷 ,MT5,3105499,Jorge2001@,InfinoxLimited-Mt5Live ,,317.0,Personal,,Algo 1 Month,"MT5
+3105499
+Jorge2001@
+InfinoxLimited-Mt5Live 
+317$
+Personal",,0.0,EXPIRED,CV13,,0.01,2026-01-01 00:00:00,2026-02-02 00:00:00,
+New Client,Odwa Mazondwa,MT5,334146,wBBH2Q)cjO,BlueGuardian,BlueGuardian-Server,97199.82,Prop Firm,,Algo 1 Month,"MT5
+334146
+wBBH2Q)cjO
+BlueGuardian
+BlueGuardian-Server
+97,200$
+Prop Firm",,0.0,EXPIRED,CV14,,0.05,2026-01-01 00:00:00,2026-02-02 00:00:00,
+New Client,Hisan ,MT5,22316698,68Xv@Z&n,Vantage International Group Limited,VantageInternational-Live15,,Personal,0.01,Algo 1 Month,"MT5
+22316698
+68Xv@Z&n
+Vantage International Group Limited
+VantageInternational-Live15
+Personal
+0.01",,0.0,EXPIRED,CV15,,0.01,2026-01-06 00:00:00,2026-02-06 00:00:00,
+Account Replace,DaBrave ,MT5,211992140,Tp!K5@#p12,AtlasFunded-Server,,25000.0,Prop Firm,0.3,Algo 1 Month,"MT5
+211992140
+Tp!K5@#p12
+AtlasFunded-Server
+25,000$
+Prop Firm
+0.3",,0.0,EXPIRED,CV14,,0.08,2025-12-19 00:00:00,2026-01-19 00:00:00,
+New Client,عمران عمران,MT4,3122291,Aa54321@,AxiCorp Financial Services Pty Ltd,US06-Live,,Personal,,Algo 1 Month,"MT4
+3122291
+Aa54321@
+AxiCorp Financial Services Pty Ltd
+US06-Live
+Personal",,0.0,EXPIRED,CV10,,0.01,2026-01-06 00:00:00,2026-02-06 00:00:00,
+New Client,Syed Ibrahim,MT5,21786530,Mubeen@8989,PUPrime,"PUPrime-live 4
+",,Personal,0.05,Algo 1 Month,"MT5
+21786530
+Mubeen@8989
+PUPrime
+PUPrime-live 4
+Personal
+0.05",,0.0,CLOSED ON VPS,CV18,,0.01,2026-01-07 00:00:00,2026-03-09 00:00:00,
+New Client,CptndobkoPhd ,MT4,2073180,ubv6anr,TradersWay-Demo,,10000.0,Prop Firm,1.0,Algo 1 Month,"MT4
+2073180
+ubv6anr
+TradersWay-Demo
+10,000$
+Prop Firm
+1",,0.0,EXPIRED,CV6,,0.05,2026-01-08 00:00:00,2026-02-10 00:00:00,
+New Client,Atlboii4L ,MT5,985976,Ne8#Mz0whggDAh,Coinexx-live,,,Personal,,Algo 1 Month,"MT5
+985976
+Ne8#Mz0whggDAh
+Coinexx-live
+Personal",,0.0,EXPIRED,CV12,,0..01,2026-01-09 00:00:00,2026-02-11 00:00:00,
+New Client,Sumanth Motha,MT4,411010512,7VcYHQa$*C,FTMO Global Markets Ltd.,FTMO-Server,14067.32,Prop Firm,0.02,Algo 1 Month,"MT4
+411010512
+7VcYHQa$*C
+FTMO Global Markets Ltd.
+FTMO-Server
+14,067$
+Prop Firm
+0.02",,0.0,EXPIRED,CV14,,0.02,2026-01-09 00:00:00,2026-03-11 00:00:00,
+New Client,Adeel abid,MT4,10024224,Soni4addi@1,VantageInternational-Live 16,,,Personal,0.05,Algo 1 Month,"MT4
+10024224
+Soni4addi@1
+VantageInternational-Live 16
+Personal
+0.05",,0.0,EXPIRED,CV7,,0.02,2026-01-12 00:00:00,2026-02-13 00:00:00,
+New Client,yasser abdelrahman,MT5,5124526,zVFF1*ut,EightcapGlobal-Live,,4200.0,Personal,,Algo 1 Month,"MT5
+5124526
+zVFF1*ut
+EightcapGlobal-Live
+4,200$
+Personal",,0.0,EXPIRED,CV7,,0.04,2026-01-13 00:00:00,2026-02-14 00:00:00,
+New Client,Carolyn Coleman,MT4,80071220,bTqVIe1!u,Plexytrade -Live,Plexytrade,300.0,Personal,0.01,Algo 1 Month,"MT4
+80071220
+bTqVIe1!u
+Plexytrade -Live
+Plexytrade
+300$
+Personal
+0.01",,0.0,,,,,,,
+New Client,Zaid khalefa,MT5,1013541635,Aboodabood2005@e,EquitiBrokerageSC-Live,,506.45,Personal,,Algo 1 Month,"MT5
+1013541635
+Aboodabood2005@e
+EquitiBrokerageSC-Live
+506$
+Personal",,0.0,EXPIRED,CV21,,0.01,2026-01-20 00:00:00,2026-02-20 00:00:00,
+New Client,Javiii45 ,MT5,144600,GavYvLu@Z1,Audacity Global limited,Audacity Global-live,10000.0,Prop Firm,0.2,Algo 1 Month,"MT5
+144600
+GavYvLu@Z1
+Audacity Global limited
+Audacity Global-live
+10,000$
+Prop Firm
+0.2",,0.0,EXPIRED,CV14,,0.02,2026-01-21 00:00:00,2026-02-23 00:00:00,
+New Client,Rajiv Agarwala,MT5,22611095,49AY6Fv@,STARTRADERFinancial,STARTRADERFinancial-Live4,100.0,Personal,0.01,Algo 1 Month,"MT5
+22611095
+49AY6Fv@
+STARTRADERFinancial
+STARTRADERFinancial-Live4
+100$
+Personal
+0.01",,0.0,EXPIRED,CV21,,0.01,2026-01-21 00:00:00,2026-02-23 00:00:00,
+New Client,Silvio Corrao,MT5,52023279,wfn471:$qreO,PepperstoneUK,PepperstoneUK-Live - FR1-P,364.41,Personal,,Algo 1 Month,"MT5
+52023279
+wfn471:$qreO
+PepperstoneUK
+PepperstoneUK-Live - FR1-P
+364$
+Personal",,0.0,CLOSED ON VPS,CV21,,0.01,2026-02-09 00:00:00,2026-03-09 00:00:00,
+New Client,Sivakumar ,MT4,8329369,gj7HPntk ,EightcapLtd-Real4,8329369,400.0,Personal,0.01,Algo 1 Month,"MT4
+8329369
+gj7HPntk 
+EightcapLtd-Real4
+8329369
+400$
+Personal
+0.01",,0.0,EXPIRED,CV12,,0.01,2026-01-21 00:00:00,2026-02-23 00:00:00,
+New Client,VANTE ,MT4,15273805,Longleye1$,STARTRADERFinancial-Live2,,504.0,Personal,,Algo 1 Month,"MT4
+15273805
+Longleye1$
+STARTRADERFinancial-Live2
+504$
+Personal",,0.0,EXPIRED,CV2,,0.01,2026-01-23 00:00:00,2026-02-23 00:00:00,
+New Client,Dinnah Katushabe,MT5,11725420,aikEC18##,fundednext,11725420,1963.12,Prop Firm,0.01,Algo 1 Month,"MT5
+11725420
+aikEC18##
+fundednext
+11725420
+1,963$
+Prop Firm
+0.01",,0.0,EXPIRED,CV2,,0.01,2026-01-23 00:00:00,2026-02-23 00:00:00,
+New Client,A ,MT5,251819936,1111Liveis1111* ,Exness-MT5Real33,Exness-MT5Real33,300.0,Personal,0.01,Algo 1 Month,"MT5
+251819936
+1111Liveis1111* 
+Exness-MT5Real33
+Exness-MT5Real33
+300$
+Personal
+0.01",,0.0,EXPIRED,CV21,,0.01,2026-01-27 00:00:00,2026-02-27 00:00:00,
+New Client,Abdukani Hassan,MT5,314410262,0#9h62@asE,GoatFunded-Server,,,Prop Firm,0.1,Algo 1 Month,"MT5
+314410262
+0#9h62@asE
+GoatFunded-Server
+Prop Firm
+0.1",,0.0,EXPIRED,CV14,,0.03,2026-01-27 00:00:00,2026-02-27 00:00:00,
+New Client,Akb ,MT5,5123049,ForexAlgo@1989,Eightcap-Global,,,Personal,,Algo 1 Month,"MT5
+5123049
+ForexAlgo@1989
+Eightcap-Global
+Personal",,0.0,EXPIRED,CV16,,0.01,2026-01-29 00:00:00,2026-02-28 00:00:00,
+New Client,CL ,MT5,23698261,Forex400@,VantageInternational-Live 14,,300.0,Personal,0.1,Algo 1 Month,"MT5
+23698261
+Forex400@
+VantageInternational-Live 14
+300$
+Personal
+0.1",,0.0,EXPIRED,CV16,,0.08,2026-01-30 00:00:00,2026-02-28 00:00:00,
+New Client,Russell Aston,MT4,9145974,@$@@!$w#2u@@tbT,Coinexx-live,,304.0,Personal,0.01,Algo 1 Month,"MT4
+9145974
+@$@@!$w#2u@@tbT
+Coinexx-live
+304$
+Personal
+0.01",,0.0,EXPIRED,CV22,,0.01,2026-02-02 00:00:00,2026-03-03 00:00:00,
+New Client,Pradeep Hk,MT5,82313539,Buggy@1988,XMGlobal-MT5 4,XMGlobal-MT5 5,500.0,Personal,0.01,Algo 1 Month,"MT5
+82313539
+Buggy@1988
+XMGlobal-MT5 4
+XMGlobal-MT5 5
+500$
+Personal
+0.01",,0.0,CLOSED ON VPS,CV18,,0.05,05.02.2026,07.03.2026,
+New Client,Ahmed ,MT5,3195246,Am58@la@,AtriaFinancial-Production,,2735.85,Personal,0.01,Algo 1 Month,"MT5
+3195246
+Am58@la@
+AtriaFinancial-Production
+2,736$
+Personal
+0.01",,0.0,EXPIRED,CV12,,0.01,2026-02-05 00:00:00,2026-03-07 00:00:00,
+New Client,Masinga ,MT5,20806967,Singatee10$,VantageInternational-Live 4,,400.0,Personal,0.01,Algo 1 Month,"MT5
+20806967
+Singatee10$
+VantageInternational-Live 4
+400$
+Personal
+0.01",,0.0,EXPIRED,CV12,,0.01,2026-02-07 00:00:00,2026-03-07 00:00:00,
+New Client,Vipul Singh,MT5,628898,zaQ%H7N$,CXMDirect-Live,,5276.0,Personal,0.05,Algo 1 Month,"MT5
+628898
+zaQ%H7N$
+CXMDirect-Live
+5,276$
+Personal
+0.05",,0.0,EXPIRED,CV12,,0.05,2026-02-16 00:00:00,2026-03-17 00:00:00,
+New Client,Yuyu Ibmjn,MT5,295352967,Yusif@2011,Exness-MT5Real27,,460.0,Personal,0.04,Algo 1 Month,"MT5
+295352967
+Yusif@2011
+Exness-MT5Real27
+460$
+Personal
+0.04",,0.0,CLOSED ON VPS,CV13,,0.02,2026-02-19 00:00:00,2026-04-21 00:00:00,
+New Client,Daniel Careaga,MT4,9111355,Ilovelaura1!1,Coinexx-Live,,497.9,Personal,,Algo 1 Month,"MT4
+9111355
+Ilovelaura1!1
+Coinexx-Live
+498$
+Personal",,0.0,CLOSED ON VPS,CV10,,0.05,2026-02-18 00:00:00,2026-03-18 00:00:00,
+New Client,TS,MT5,4015479,kYa#a2tMyByLu9G,SwitchMarkets-Live,4015479,304.0,Personal,0.01,Algo 1 Month,"MT5
+4015479
+kYa#a2tMyByLu9G
+SwitchMarkets-Live
+4015479
+304$
+Personal
+0.01",,0.0,CLOSED ON VPS,CV13,10062.0,0.01,2026-02-19 00:00:00,2026-04-21 00:00:00,
+New Client,Tom Milton,MT4,24166207,Crumble@4,FOREX.comUK-Live 102,CityIndexUK-Live 102,300.0,Personal,0.25,Algo 1 Month,"MT4
+24166207
+Crumble@4
+FOREX.comUK-Live 102
+CityIndexUK-Live 102
+300$
+Personal
+0.25",,0.0,EXPIRED,CV10,,0.01,2026-02-20 00:00:00,2026-03-23 00:00:00,
+New Client,Jan Eichenbrot,MT5,521039698,n6Vt88NC!tww$,FTMO Server2,Access Server 1a,9906.59,Prop Firm,0.3,Algo 1 Month,"MT5
+521039698
+n6Vt88NC!tww$
+FTMO Server2
+Access Server 1a
+9,907$
+Prop Firm
+0.3",,0.0,EXPIRED,CV14,,0.01,2026-03-04 00:00:00,2026-04-05 00:00:00,
+New Client,Eret ,MT5,82150521,Shkoder1992$,FPmarketsLLC-live,,254.88,Personal,0.02,Algo 1 Month,"MT5
+82150521
+Shkoder1992$
+FPmarketsLLC-live
+255$
+Personal
+0.02",,0.0,CLOSED ON VPS,CV21,,0.01,2026-03-05 00:00:00,2026-04-06 00:00:00,
+New Client,Rfh Yuo,MT5,256197955,iNes#13#12#2025,Exness-MT5Real35,Exness-MT5Real35,800.0,Personal,,Algo 1 Month,"MT5
+256197955
+iNes#13#12#2025
+Exness-MT5Real35
+Exness-MT5Real35
+800$
+Personal",,0.0,CLOSED ON VPS,CV16,,0.01,2026-03-05 00:00:00,2026-04-06 00:00:00,
+New Client,Daniel Careaga,MT5,600043975,@?2yIx!q,OANDA - Prop Trader,,,Prop Firm,0.04,Algo 1 Month,"MT5
+600043975
+@?2yIx!q
+OANDA - Prop Trader
+Prop Firm
+0.04",,0.0,CLOSED ON VPS,CV14,,0.04,2026-02-18 00:00:00,2026-03-18 00:00:00,
+New Client,Derekson Daniel,MT5,4711,S3E@7NZp,TradeTwentyFour7,,1000.0,Personal,,Algo 1 Month,"MT5
+4711
+S3E@7NZp
+TradeTwentyFour7
+1,000$
+Personal",,0.0,CLOSED ON VPS,CV20,,0.01,2026-04-20 00:00:00,2026-05-20 00:00:00,
+New Client,Karim ,MT5,506842,Moses77$,black bull markets-lives,,,Personal,,Algo 1 Month,"MT5
+506842
+Moses77$
+black bull markets-lives
+Personal",,0.0,CLOSED ON VPS,CV16,,0.01,2026-03-09 00:00:00,2026-04-10 00:00:00,
+New Client,Oumarou ,MT5,50681661,W$^XRBSL0r,TMFinancials-Server,,768.0,Personal,,Algo 1 Month,"MT5
+50681661
+W$^XRBSL0r
+TMFinancials-Server
+768$
+Personal",,0.0,CLOSED ON VPS,CV2,,0.01,2026-03-11 00:00:00,2026-04-12 00:00:00,
+New Client,Ziggy ,MT5,511155701,8t!@$K9@767NT2,FTMO-Server,FTMO-Server,9495.23,Prop Firm,0.02,Algo 1 Month,"MT5
+511155701
+8t!@$K9@767NT2
+FTMO-Server
+FTMO-Server
+9,495$
+Prop Firm
+0.02",,0.0,CLOSED ON VPS,CV4,,0.02,2026-03-11 00:00:00,2026-04-12 00:00:00,
+Account Replace,Daniel Careaga,MT4,9111355,Ilovelaura1!1,Coinexx,coinexx-live,1000.0,Personal,0.02,Algo 1 Month,"MT4
+9111355
+Ilovelaura1!1
+Coinexx
+coinexx-live
+1,000$
+Personal
+0.02",,0.0,EXPIRED,CV14,,0.02,2026-02-18 00:00:00,2026-03-18 00:00:00,
+Account Replace,Rfh Yuo,MT5,262469656,Algo#1212,Exness-MT5Trial16,,,Personal,0.02,Algo 1 Month,"MT5
+262469656
+Algo#1212
+Exness-MT5Trial16
+Personal
+0.02",,0.0,EXPIRED,CV16,,0.02,2026-03-05 00:00:00,2026-04-06 00:00:00,
+New Client,Erick Lagrimas,MT5,265787475,Er!ck051236,Exness-MT5Real38,Exness-MT5Real38,436.65,Personal,0.01,Algo 1 Month,"MT5
+265787475
+Er!ck051236
+Exness-MT5Real38
+Exness-MT5Real38
+437$
+Personal
+0.01",,0.0,EXPIRED,CV16,,0.01,2026-03-16 00:00:00,2026-04-17 00:00:00,
+New Client,Raphi ,MT5,541192409,W3tjy8$?$C 7,FTMO-Server4,FTMO-Server4,10000.0,Prop Firm,,Algo 1 Month,"MT5
+541192409
+W3tjy8$?$C 7
+FTMO-Server4
+FTMO-Server4
+10,000$
+Prop Firm",,0.0,CLOSED ON VPS,CV23,,0.01,2026-03-17 00:00:00,2026-04-17 00:00:00,
+Account Replace,Eret ,MT5,900909503405,s$Y3KkMXOSw4,ALFX-Limited,,,Prop Firm,0.02,Algo 1 Month,"MT5
+900909503405
+s$Y3KkMXOSw4
+ALFX-Limited
+Prop Firm
+0.02",,0.0,CLOSED ON VPS,CV23,,0.02,2026-03-05 00:00:00,2026-04-06 00:00:00,
+New Client,Yuyu Ibmjn,MT5,295352967,Yusif@2011,Exness-MT5Real27,Exness-MT5Real27,470.0,Personal,0.04,Algo 1 Month,"MT5
+295352967
+Yusif@2011
+Exness-MT5Real27
+Exness-MT5Real27
+470$
+Personal
+0.04",,0.0,CLOSED ON VPS,CV13,,0.01,2026-02-19 00:00:00,2026-04-21 00:00:00,
+New Client,Amana ,MT5,555257,M+AKAf8tNP4,UpGlobalMarkets-Trade,UpGlobalMarkets-Trade,200.0,Personal,,Algo 1 Month,"MT5
+555257
+M+AKAf8tNP4
+UpGlobalMarkets-Trade
+UpGlobalMarkets-Trade
+200$
+Personal",,0.0,CLOSED ON VPS,CV22,10345.0,0.01,2026-03-18 00:00:00,2026-04-20 00:00:00,
+Account Replace,Eret ,MT5,1007488,"OY%Sd57LYiPv
+","1xTrade-Server
+","1xTrade-Server
+",50000.0,Prop Firm,0.03,Algo 1 Month,"MT5
+1007488
+OY%Sd57LYiPv
+1xTrade-Server
+1xTrade-Server
+
+50,000$
+Prop Firm
+0.03",,0.0,CLOSED ON VPS,CV23,,0.03,2026-03-05 00:00:00,2026-04-06 00:00:00,
+Account Replace,Oumarou ,MT5,50688097,1y5C&F1tbV,T.M. Financials Ltd,50688097 - TMFinancials-Server Access 3 - CS,492.0,Prop Firm,0.01,Algo 1 Month,"MT5
+50688097
+1y5C&F1tbV
+T.M. Financials Ltd
+50688097 - TMFinancials-Server Access 3 - CS
+492$
+Prop Firm
+0.01",,0.0,EXPIRED,CV23,,0.01,2026-03-11 00:00:00,2026-04-12 00:00:00,
+Account Replace,Raphi ,MT5,11843066,"stcAZ90##
+",Fundednext,Fundednext-Server,9400.0,Prop Firm,,Algo 1 Month,"MT5
+11843066
+stcAZ90##
+Fundednext
+Fundednext-Server
+9,400$
+Prop Firm",,0.0,CLOSED ON VPS,CV23,,0.02,2026-03-17 00:00:00,2026-04-17 00:00:00,
+New Client,D.Howard ,MT5,600004769,63JR@w5V!2,OANDA-Prop Trader,,,Prop Firm,0.25,Algo 1 Month,"MT5
+600004769
+63JR@w5V!2
+OANDA-Prop Trader
+Prop Firm
+0.25",,0.0,CLOSED ON VPS,CV24,10283.0,0.01,2026-03-30 00:00:00,2026-04-30 00:00:00,
+Account Replace,Raphi ,MT5,11847577,durYW44##,FundedNext Server,FundedNext Server,,Prop Firm,0.04,Algo 1 Month,"MT5
+11847577
+durYW44##
+FundedNext Server
+FundedNext Server
+Prop Firm
+0.04",,0.0,CLOSED ON VPS,CV23,,0.04,2026-03-17 00:00:00,2026-04-17 00:00:00,
+Account Replace,Eret ,MT5,1007488,Stoxpips488&,StoxPips-Trade,StoxPips-Trade,,Prop Firm,0.03,Algo 1 Month,"MT5
+1007488
+Stoxpips488&
+StoxPips-Trade
+StoxPips-Trade
+Prop Firm
+0.03",,0.0,EXPIRED,CV23,,0.03,2026-03-05 00:00:00,2026-04-06 00:00:00,
+New Client,Agnessmw2,MT4,69196745,123Bonusa/c,HFMarketsKE-Live Server8,Amsterdam 2,934.27,Personal,0.01,Algo 1 Month,"MT4
+69196745
+123Bonusa/c
+HFMarketsKE-Live Server8
+Amsterdam 2
+934$
+Personal
+0.01",,0.0,CLOSED ON VPS,CV21,10349.0,0.01,2026-03-27 00:00:00,2026-04-27 00:00:00,
+Old Client,Yuyu Ibmjn,MT5,295352967,Yusif@2011,Exness-MT5Real27,Exness-MT5Real27,300.0,Personal,0.02,Algo 1 Month,"MT5
+295352967
+Yusif@2011
+Exness-MT5Real27
+Exness-MT5Real27
+300$
+Personal
+0.02",,0.0,CLOSED ON VPS,CV13,,0.02,2026-02-19 00:00:00,2026-04-21 00:00:00,
+New Client,SamirRadoin ,MT5,5997619,Samir100.,Deriv.com Limited,Deriv-Demo,10000.0,Personal,0.05,Algo 1 Month,"MT5
+5997619
+Samir100.
+Deriv.com Limited
+Deriv-Demo
+10,000$
+Personal
+0.05",,0.0,CLOSED ON VPS,CV21,10351.0,0.05,2026-03-31 00:00:00,2026-05-01 00:00:00,
+New Client,Johanes P,MT4,50233299,123456Ab*#,exness,exness-real17,1000.0,Personal,0.01,Algo 1 Month,"MT4
+50233299
+123456Ab*#
+exness
+exness-real17
+1,000$
+Personal
+0.01",,0.0,CLOSED ON VPS,CV10,,0.01,2026-03-31 00:00:00,2026-05-01 00:00:00,
+New Client,Punleu Set ,MT4,14666292,Punleu@523558,Exness-Real4,Exness-Real4,500.0,Personal,0.01,Algo 1 Month,"MT4
+14666292
+Punleu@523558
+Exness-Real4
+Exness-Real4
+500$
+Personal
+0.01",,0.0,CLOSED ON VPS,CV10,10353.0,0.01,2026-04-02 00:00:00,2026-05-03 00:00:00,
+New Client,Extrader ,MT5,60282199,E8VuAn9&,Octa fx,Octafx real,250.0,Personal,0.05,Algo 1 Month,"MT5
+60282199
+E8VuAn9&
+Octa fx
+Octafx real
+250$
+Personal
+0.05",,0.0,CLOSED ON VPS,CV12,,0.01,2026-04-10 00:00:00,2026-05-13 00:00:00,
+New Client,Abdulwahab ,MT5,139655412,Exness@1985,Exness-MT5Real,Exness-MT5Real,400.0,Personal,0.02,Algo 1 Month,"MT5
+139655412
+Exness@1985
+Exness-MT5Real
+Exness-MT5Real
+400$
+Personal
+0.02",,0.0,CLOSED ON VPS,CV16,,0.01,2026-04-13 00:00:00,2026-05-13 00:00:00,
+New Client,Eric Wesonga,MT5,54674265,Allison2013@,Hfmarketke-live2,,,Personal,0.03,Algo 1 Month,"MT5
+54674265
+Allison2013@
+Hfmarketke-live2
+Personal
+0.03",,0.0,CLOSED ON VPS,CV7,,0.01,2026-04-13 00:00:00,2026-05-13 00:00:00,
+New Client,M ,MT5,892917,uf^N%Ey9,Blueberry Markets Pty Ltd,BlueberryMarkets-Live02,300.0,Personal,,Algo 1 Month,"MT5
+892917
+uf^N%Ey9
+Blueberry Markets Pty Ltd
+BlueberryMarkets-Live02
+300$
+Personal",,0.0,CLOSED ON VPS,CV20,,0.01,2026-04-15 00:00:00,2026-05-15 00:00:00,
+New Client,Jayesh Patel,MT4,150686,Jayesh@1234,Fusion market-live,NY DC#4,,Personal,0.06,Algo 1 Month,"MT4
+150686
+Jayesh@1234
+Fusion market-live
+NY DC#4
+Personal
+0.06",,0.0,CLOSED ON VPS,CV17,,0.06,2026-04-15 00:00:00,2026-05-15 00:00:00,
+Account Replace,Eric Wesonga,MT5,11935076,w#6%zW+AO,Fundingpips 2-sim,,9300.0,Prop Firm,0.05,Algo 1 Month,"MT5
+11935076
+w#6%zW+AO
+Fundingpips 2-sim
+9,300$
+Prop Firm
+0.05",,0.0,CLOSED ON VPS,CV23,,0.05,2026-04-13 00:00:00,2026-05-13 00:00:00,
+New Client,Kadir ,MT5,12015567,Kadir123kd.,FundingPips2-SIM,FundingPips2-SIM,24650.0,Prop Firm,0.02,Algo 1 Month,"MT5
+12015567
+Kadir123kd.
+FundingPips2-SIM
+FundingPips2-SIM
+24,650$
+Prop Firm
+0.02",,0.0,CLOSED ON VPS,CV23,10343.0,0.02,2026-04-23 00:00:00,2026-05-22 00:00:00,
+New Client,Benedict Nyathi,MT5,410483169,@Ben120982!,Exness-MT5Real10,,500.0,Personal,0.02,Algo 1 Month,"MT5
+410483169
+@Ben120982!
+Exness-MT5Real10
+500$
+Personal
+0.02",,0.0,CLOSED ON VPS,CV16,10322.0,0.01,2026-04-29 00:00:00,2026-05-28 00:00:00,
+New Client,Mantini ,MT5,7999642,7T@sz0PQFPRsTr ,ICMarketsSC-MT5-2,,,Personal,,Algo 1 Month,"MT5
+7999642
+7T@sz0PQFPRsTr 
+ICMarketsSC-MT5-2
+Personal",,0.0,EXPIRED,CV22,10318.0,0.01,2026-04-24 00:00:00,2026-06-25 00:00:00,
+New Client,Rafael Vittini,MT5,9169541,mzgxfF6:,sureLeverageFunding-MT5,,,Prop Firm,0.03,Algo 1 Month,"MT5
+9169541
+mzgxfF6:
+sureLeverageFunding-MT5
+Prop Firm
+0.03",,0.0,CLOSED ON VPS,CV23,10363.0,0.03,2026-04-27 00:00:00,2026-05-27 00:00:00,
+New Client,Malaka Perera,C-Trader,14000149,232Shan852@,,,,Personal,0.2,Algo 1 Month,"C-Trader
+14000149
+232Shan852@
+Personal
+0.2",,0.0,CLOSED ON VPS,CV16,,0.01,2026-04-27 00:00:00,2026-05-27 00:00:00,
+New Client,Mykhailo Tataryn,MT4,92058422,tatarynmV07,Forex.com-Live 122,"Gain Capital Group, LLC",304.23,Personal,0.01,Algo 1 Month,"MT4
+92058422
+tatarynmV07
+Forex.com-Live 122
+Gain Capital Group, LLC
+304$
+Personal
+0.01",,0.0,CLOSED ON VPS,CV2,,0.01,2026-04-28 00:00:00,2026-05-28 00:00:00,
+New Client,Yass,MT5,29423,m2A*fYtZ5, PTBPlutusTradebase-Triple,,,Prop Firm,0.03,Algo 1 Month,"MT5
+29423
+m2A*fYtZ5
+ PTBPlutusTradebase-Triple
+Prop Firm
+0.03",,0.0,CLOSED ON VPS,CV23,,0.03,2026-04-29 00:00:00,2026-05-29 00:00:00,
+New Client,Dubai Trader,MT5,352178747,Push151995@,XMGlobal-MT5 11,,500.0,Personal,0.01,Algo 1 Month,"MT5
+352178747
+Push151995@
+XMGlobal-MT5 11
+500$
+Personal
+0.01",,0.0,CLOSED ON VPS,CV21,,0.01,2026-04-29 00:00:00,2026-05-29 00:00:00,
+New Client,Steven ,MT5,414114,"@ttx^$J5E9
+","Blue Guardian Server
+",Blue guardian,25000.0,Prop Firm,,Algo 1 Month,"MT5
+414114
+@ttx^$J5E9
+Blue Guardian Server
+Blue guardian
+25,000$
+Prop Firm",,0.0,CLOSED ON VPS,CV14,,0.01,2026-05-04 00:00:00,2026-06-04 00:00:00,
+Account Replace,Yass ,MT5,27831784,"Y1uq#blw
+","PUPrime-Live6
+",,,Personal,0.01,Algo 1 Month,"MT5
+27831784
+Y1uq#blw
+PUPrime-Live6
+Personal
+0.01",,0.0,CLOSED ON VPS,CV15,,0.01,2026-05-04 00:00:00,2026-05-29 00:00:00,
+New Client,Jian Bo Tan,MT4,275984,c0Ui4Wn9,FxPro.com - Real02,FxPro.com - Real02,1234.42,Personal,,Algo 1 Month,"MT4
+275984
+c0Ui4Wn9
+FxPro.com - Real02
+FxPro.com - Real02
+1,234$
+Personal",,0.0,CLOSED ON VPS,CV1,,0.01,2026-05-04 00:00:00,2026-06-08 00:00:00,
+New Client,Jason ,C-Trader,2295886,Dogsmess303.,IC Markets,,,Personal,,Algo 1 Month,"C-Trader
+2295886
+Dogsmess303.
+IC Markets
+Personal",,0.0,CLOSED ON VPS,CV1,,0.05,2026-05-04 00:00:00,2026-06-04 00:00:00,
+New Client,Tamatave ,MT5,430219162,Kanaza2123@, XM Global Limited,XM Global-MT5 18,300.0,Personal,0.01,Algo 1 Month,"MT5
+430219162
+Kanaza2123@
+ XM Global Limited
+XM Global-MT5 18
+300$
+Personal
+0.01",,0.0,EXPIRED,CV17,,0.01,2026-05-05 00:00:00,2026-06-08 00:00:00,
+New Client,Fico ,MT5,28082613,MU6oET@P,PU Prime-Live 6,PU Prime,405.0,Personal,0.01,Algo 1 Month,"MT5
+28082613
+MU6oET@P
+PU Prime-Live 6
+PU Prime
+405$
+Personal
+0.01",,0.0,CLOSED ON VPS,CV2,,0.01,2026-05-06 00:00:00,2026-06-06 00:00:00,
+New Client,Nasir Adam,MT5,10239052,_4O*0GD7@pnz,capitalxtendLLC-MU,CapitalxtendLLC-MU,300.0,Personal,0.02,Algo 1 Month,"MT5
+10239052
+_4O*0GD7@pnz
+capitalxtendLLC-MU
+CapitalxtendLLC-MU
+300$
+Personal
+0.02",,0.0,CLOSED ON VPS,CV7,,0.01,2026-05-06 00:00:00,2026-06-06 00:00:00,
+New Client,Issa ,MT5,28113041,I$k@ndeR020217,Vantageinternational-Live 8,,500.0,Personal,0.01,Algo 1 Month,"MT5
+28113041
+I$k@ndeR020217
+Vantageinternational-Live 8
+500$
+Personal
+0.01",,0.0,CLOSED ON VPS,CV13,,0.01,2026-05-07 00:00:00,2026-06-07 00:00:00,
+Account Replace,Malaka Perera,MT5,21003929,4CiDK@qB!eiIMK,ICMaketsAU-MT5,ICMaketsAU-MT5,1799.75,Personal,0.01,Algo 1 Month,"MT5
+21003929
+4CiDK@qB!eiIMK
+ICMaketsAU-MT5
+ICMaketsAU-MT5
+1,800$
+Personal
+0.01",,0.0,CLOSED ON VPS,CV18,,0.02,2026-04-27 00:00:00,2026-05-27 00:00:00,
+New Client,Vijay Chetty,MT4,33620067,SIMluc@5,MEX Atlantic Corporation,MEXAtlantic-Real-2,4534.0,Personal,,Algo 1 Month,"MT4
+33620067
+SIMluc@5
+MEX Atlantic Corporation
+MEXAtlantic-Real-2
+4,534$
+Personal",,0.0,CLOSED ON VPS,CV10,,0.03,2026-05-12 00:00:00,2026-06-12 00:00:00,
+Account Replace,Issa ,MT5,531276451,h1c@*eJK13j2,FTMO-Server3,FTMO-Server3,96000.0,Prop Firm,0.5,Algo 1 Month,"MT5
+531276451
+h1c@*eJK13j2
+FTMO-Server3
+FTMO-Server3
+96,000$
+Prop Firm
+0.5",,0.0,EXPIRED,CV23,,0.5,2026-05-07 00:00:00,2026-06-07 00:00:00,
+Account Replace,Steven ,MT5,442646,"6J!8jh$yUn
+","BlueGuardian-Server
+","BlueGuardian-Server
+",50000.0,Prop Firm,0.35,Algo 1 Month,"MT5
+442646
+6J!8jh$yUn
+BlueGuardian-Server
+BlueGuardian-Server
+50,000$
+Prop Firm
+0.35",,0.0,CLOSED ON VPS,CV14,,0.3,2026-05-04 00:00:00,2026-06-04 00:00:00,
+New Client,Ogunka Ogan,MT5,956192,Gr1nm@ny,MEXAtlantic-Real,MEXAtlantic-Real,524.0,Personal,0.01,Algo 1 Month,"MT5
+956192
+Gr1nm@ny
+MEXAtlantic-Real
+MEXAtlantic-Real
+524$
+Personal
+0.01",,0.0,CHANGED PASSCODE/INVALID ACCOUNT,CV3,,0.01,2026-05-20 00:00:00,2026-06-20 00:00:00,
+New Client,Toni,MT5,444718,IS5@6(KGhK,BlueGuardian-Server,,200000.0,Prop Firm,,Algo 1 Month,"MT5
+444718
+IS5@6(KGhK
+BlueGuardian-Server
+200,000$
+Prop Firm",,0.0,CLOSED ON VPS,CV6,,0.05,2026-05-21 00:00:00,2026-06-21 00:00:00,
+New Client,MCNeal 😎🤑 ,MT5,700112712, iJQB3rg^,PUPrime-Demo,,300.0,Personal,0.01,Algo 1 Month,"MT5
+700112712
+ iJQB3rg^
+PUPrime-Demo
+300$
+Personal
+0.01",,0.0,CLOSED ON VPS,CV21,,0.01,2026-05-22 00:00:00,2026-06-22 00:00:00,
+New Client,Heritier Amos KABORE ,MT4,72089019,Heritieramos@33,Exnes-Trial11,,300.0,Personal,0.01,Algo 1 Month,"MT4
+72089019
+Heritieramos@33
+Exnes-Trial11
+300$
+Personal
+0.01",,0.0,CLOSED ON VPS,CV10,,0.01,2026-05-22 00:00:00,2026-06-22 00:00:00,
+New Client,Denis15 ,MT5,19301433,3*X11jO^,VantageGlobalPrimeAU-Live,Standard STP,,Personal,0.01,Algo 1 Month,"MT5
+19301433
+3*X11jO^
+VantageGlobalPrimeAU-Live
+Standard STP
+Personal
+0.01",,0.0,CLOSED ON VPS,CV3,,0.01,2026-05-22 00:00:00,2026-06-22 00:00:00,
+New Client,Sudharsan,MT5,162360,Sudharsan#3,winprofx,Winprofx-Live,280.71,Personal,0.01,Algo 1 Month,"MT5
+162360
+Sudharsan#3
+winprofx
+Winprofx-Live
+281$
+Personal
+0.01",,0.0,EXPIRED,CV5,10360.0,0.01,2026-05-25 00:00:00,2026-06-25 00:00:00,
+New Client,ronie ,MT5,27564323,$c0tchBr!ght,Vantage Markets,VantageMarkets-Live 8,,Personal,,Algo 1 Month,"MT5
+27564323
+$c0tchBr!ght
+Vantage Markets
+VantageMarkets-Live 8
+Personal",,0.0,CLOSED ON VPS,CV12,10336.0,0.01,2026-05-29 00:00:00,2026-06-29 00:00:00,
+Account Replace,Heritier Amos KABORE ,MT5,410577233,Heritieramos@33,Exness-MT5Real10,,,Personal,0.01,Algo 1 Month,"MT5
+410577233
+Heritieramos@33
+Exness-MT5Real10
+Personal
+0.01",,0.0,EXPIRED,CV22,10359.0,0.01,2026-05-22 00:00:00,2026-06-22 00:00:00,
+New Client,Darrel Raby,MT5,8014997,5xLnS4FhJ&JkML,ICMarketsSC-MT5-3,,1500.0,Personal,,Algo 1 Month,"MT5
+8014997
+5xLnS4FhJ&JkML
+ICMarketsSC-MT5-3
+1,500$
+Personal",,0.0,CLOSED ON VPS,CV13,,0.01,2026-05-29 00:00:00,2026-06-29 00:00:00,
+Account Replace,MCNeal 😎🤑 ,MT5,21374727,MyGodisbig5!,PUPrime-Live,,300.0,Personal,0.01,Algo 1 Month,"MT5
+21374727
+MyGodisbig5!
+PUPrime-Live
+300$
+Personal
+0.01",,0.0,CLOSED ON VPS,CV21,,0.01,2026-05-22 00:00:00,2026-06-22 00:00:00,
+New Client,Odwa Mazondwa,MT5,333382049,2!O^$6E$z^,FTUK," FTUKMarkets-trade
+",,Prop Firm,,Algo 1 Month,"MT5
+333382049
+2!O^$6E$z^
+FTUK
+ FTUKMarkets-trade
+
+Prop Firm",,0.0,CLOSED ON VPS,CV6,10357.0,0.01,2026-06-01 00:00:00,2026-07-01 00:00:00,
+Account Replace,Vipul Singh,MT5,26748543,#44XHwjM,Vantage markets live 3,,762.0,Personal,0.01,Algo 1 Month,"MT5
+26748543
+#44XHwjM
+Vantage markets live 3
+762$
+Personal
+0.01",,0.0,NO BALANCE/WITHDREW,CV22,10308.0,0.01,2026-06-04 00:00:00,2026-07-04 00:00:00,
+New Client,Molusi Motsetse,MT5,134345415,Motsetserepa@76,Exness-MT5Real9,,300.0,Personal,,Algo 1 Month,"MT5
+134345415
+Motsetserepa@76
+Exness-MT5Real9
+300$
+Personal",,0.0,CLOSED ON VPS,CV17,10366.0,0.01,2026-06-04 00:00:00,2026-07-04 00:00:00,
+New Client,Brian P,C-Trader,14001833, Pottsie17#, ICMarketsAU, ICMarketsAU-cTrader,,Personal,0.01,Algo 1 Month,"C-Trader
+14001833
+ Pottsie17#
+ ICMarketsAU
+ ICMarketsAU-cTrader
+Personal
+0.01",,0.0,CLOSED ON VPS,CV16,10340.0,0.01,2026-06-08 00:00:00,2026-07-08 00:00:00,
+New Client,WhoJumppp,MT4,9144591,"Popcorn77$$
+","Coinexx-live
+",,2672.0,Personal,0.1,Algo 1 Month,"MT4
+9144591
+Popcorn77$$
+Coinexx-live
+2,672$
+Personal
+0.1",,0.0,EXPIRED,CV10,10187.0,0.01,2026-06-09 00:00:00,2026-07-09 00:00:00,
+New Client,Thomas ,MT5,67191592,LaskLinz_11,RoboForex_ECN,,15000.0,Personal,0.1,Algo 1 Month,"MT5
+67191592
+LaskLinz_11
+RoboForex_ECN
+15,000$
+Personal
+0.1",,0.0,EXPIRED,CV5,10344.0,0.1,2026-06-10 00:00:00,2026-07-10 00:00:00,
+New Client,Cloud,MT5,83931339,100%Rebecca,FirstPrudentialMarkets-Live,,,Personal,0.01,Algo 1 Month,"MT5
+83931339
+100%Rebecca
+FirstPrudentialMarkets-Live
+Personal
+0.01",,0.0,CHANGED PASSCODE/INVALID ACCOUNT,CV20,,0.01,2026-06-10 00:00:00,2026-07-10 00:00:00,
+New Client,Max Joos,MT5,27679298,!n1H*KQ*,"VantageInternational-Live 4
+","VantageInternational-Live 4
+",100.0,Personal,0.04,Algo 1 Month,"MT5
+27679298
+!n1H*KQ*
+VantageInternational-Live 4
+VantageInternational-Live 4
+100$
+Personal
+0.04",,,,,,,,,
+New Client,Ferico Pagnone,MT5,29317742,^xd7NBUM,STARTRADERFinancial-Live3-MT5,,676.0,Personal,0.01,Algo 1 Month,"MT5
+29317742
+^xd7NBUM
+STARTRADERFinancial-Live3-MT5
+676$
+Personal
+0.01",,0.0,CLOSED ON VPS,CV5,,0.01,2026-06-15 00:00:00,2026-07-15 00:00:00,
+New Client,Colton ,MT5,28108572,b5XU!H5#,PUPrime-Live,,,Personal,,Algo 1 Month,"MT5
+28108572
+b5XU!H5#
+PUPrime-Live
+Personal",,0.0,CHANGED PASSCODE/INVALID ACCOUNT,CV1,,0.01,2026-06-19 00:00:00,2026-07-19 00:00:00,
+New Client,Sunny Gandham,MT5,27222,DeltaPort389!,BoForex ,BoForex ,498.49,Personal,,Algo 1 Month,"MT5
+27222
+DeltaPort389!
+BoForex 
+BoForex 
+498$
+Personal",,,,,,,,,
+New Client,Junecho Aler,MT4,14700566,*^Efmajr*@12,Exness,Exness Real-4,300.0,Personal,0.01,Algo 1 Month,"MT4
+14700566
+*^Efmajr*@12
+Exness
+Exness Real-4
+300$
+Personal
+0.01",,0.0,Low balance,CV5,,0.01,2026-07-01 00:00:00,2026-07-30 00:00:00,
+New Client,Sunny Gandham,MT5,4017711,BlueSparky22,Switch Markets Pty,Switch Markets-Live,,Personal,,Algo 1 Month,"MT5
+4017711
+BlueSparky22
+Switch Markets Pty
+Switch Markets-Live
+Personal",,0.0,CLOSED ON VPS,CV17,,0.01,2026-07-01 00:00:00,2026-08-01 00:00:00,
+New Client,CryptoFeminist ,MT5,25341309, >^:iP0xC1&nW,Tickmill-Demo,Demo AS - London 1,500.0,Personal,0.01,Algo 1 Month,"MT5
+25341309
+ >^:iP0xC1&nW
+Tickmill-Demo
+Demo AS - London 1
+500$
+Personal
+0.01",,0.0,CLOSED ON VPS,CV5,,0.01,2026-07-06 00:00:00,2026-08-06 00:00:00,
+New Client,MCNeal 😎🤑 ,MT5,32136862, t@W%s&2W,PUPrime-live6,,300.0,Personal,0.01,Algo 1 Month,"MT5
+32136862
+ t@W%s&2W
+PUPrime-live6
+300$
+Personal
+0.01",,0.0,CLOSED ON VPS,CV17,,0.01,2026-07-07 00:00:00,2026-08-07 00:00:00,
+New Client,Balajee ,MT5,25343648,4w+PwB!X=ZUx,Tickmill-Demo,Tickmill-Demo,300.0,Personal,0.02,Algo 1 Month,"MT5
+25343648
+4w+PwB!X=ZUx
+Tickmill-Demo
+Tickmill-Demo
+300$
+Personal
+0.02",,1.0,Running,CV7,10350.0,0.01,2026-07-09 00:00:00,2026-08-10 00:00:00,
+New Client,Jay ,MT5,531307123,!L*7Py94U,FTMO-Server3,,,Prop Firm,,Algo 1 Month,"MT5
+531307123
+!L*7Py94U
+FTMO-Server3
+Prop Firm","5k a day 10k max overall
+Whats best by experts and safe
+Pleass set not to trade high impact news and make sure all trades close like 2 hours before markets close on Friday",0.0,CLOSED ON VPS,CV6,,0.01,2026-07-13 00:00:00,2026-08-13 00:00:00,
+New Client,Syed Ahmed,MT5,63159721,"Pia777@@@?
+","XMGlobal-MT5. 2
+","XMGlobal-MT5. 2
+",537.0,Personal,0.02,Algo 1 Month,"MT5
+63159721
+Pia777@@@?
+
+XMGlobal-MT5. 2
+XMGlobal-MT5. 2
+537$
+Personal
+0.02",,1.0,Running,CV5,10365.0,0.01,2026-07-14 00:00:00,2026-08-14 00:00:00,
+Account Replace,MCNeal 😎🤑 ,MT5,14135027,hkmMT28##,FundedNext-Server2,,15000.0,Prop Firm,0.02,Algo 1 Month,"MT5
+14135027
+hkmMT28##
+FundedNext-Server2
+15,000$
+Prop Firm
+0.02",,0.0,CLOSED ON VPS,CV6,10369.0,0.02,2026-07-07 00:00:00,2026-08-07 00:00:00,
+New Client,Vinney Bains,MT4,63501593,Skeeter123$7,RadexMarkets-Real 6,RadexMarkets-Real 6,,Personal,0.05,Algo 1 Month,"MT4
+63501593
+Skeeter123$7
+RadexMarkets-Real 6
+RadexMarkets-Real 6
+Personal
+0.05",,,,,,,,,
+New Client,Cr Boyett,MT4,250673,Roof@2012,N1capitalmarkets-live,N1capitalmarkets-live,,Personal,,Algo 1 Month,"MT4
+250673
+Roof@2012
+N1capitalmarkets-live
+N1capitalmarkets-live
+Personal",,1.0,Running,CV1,10370.0,0.01,2026-07-16 00:00:00,2026-08-16 00:00:00,
+New Client,DINA BXV,MT5,5178276,"06011976Tg@
+",Exclusive Markets Ltd,Exclusive Markets -Live-access point,,Personal,0.02,Algo 1 Month,"MT5
+5178276
+06011976Tg@
+
+Exclusive Markets Ltd
+Exclusive Markets -Live-access point
+Personal
+0.02",,1.0,Running,CV5,10376.0,0.01,2026-07-22 00:00:00,2026-08-22 00:00:00,
+Account Replace,Daniel Careaga,MT5,995595,Lm1#1s3TraePCW,Coinexx - Live,"Coinexx - Live
+",500.0,Personal,0.02,Algo 1 Month,"MT5
+995595
+Lm1#1s3TraePCW
+Coinexx - Live
+Coinexx - Live
+500$
+Personal
+0.02",,1.0,Running,CV17,10303.0,0.01,2026-07-22 00:00:00,2026-08-22 00:00:00,
+Account Replace,Issa ,MT5,575332,NjS*YXj9JD,alsmarketsltd,alsmarketsltd-server,,Personal,0.04,Algo 1 Month,"MT5
+575332
+NjS*YXj9JD
+alsmarketsltd
+alsmarketsltd-server
+Personal
+0.04",,0.0,CLOSED ON VPS,CV12,,0.04,2026-07-24 00:00:00,2026-08-24 00:00:00,
+New Client,Garry Pflug,MT5,40013570,S!OfZ5Qy,Chimara-SRV01,Chimara-SRV01,479000.0,Prop Firm,,Algo 1 Month,"MT5
+40013570
+S!OfZ5Qy
+Chimara-SRV01
+Chimara-SRV01
+479,000$
+Prop Firm",,0.0,CLOSED ON VPS,CV14,10381.0,0.1,2026-07-27 00:00:00,2026-08-27 00:00:00,
+New Client,Ismael Ladejobi,mt5,125989794,MonkeyMonsterlegal1*, TradeQuo-Server,125989794,165.0,Personal,0.01,Algo 1 Month,"mt5
+125989794
+MonkeyMonsterlegal1*
+ TradeQuo-Server
+125989794
+165$
+Personal
+0.01",,1.0,Running,CV15,10382.0,0.1,2026-07-29 00:00:00,2026-08-29 00:00:00,
+New Client,Wealth Creator ,MT5,32245404,9!Zinbz1,"VT Markets (Pty) Ltd
+","VTMarkets-Live3
+",400.0,Personal,,Algo 1 Month,"MT5
+32245404
+9!Zinbz1
+VT Markets (Pty) Ltd
+VTMarkets-Live3
+400$
+Personal",,1.0,Running,CV9,10378.0,0.01,2026-07-29 00:00:00,2026-08-28 00:00:00,
+Account Replace,Issa ,MT5,33699080,Mm123456$$,vantagemarkets-live8,vantagemarkets-live8,,Personal,0.04,Algo 1 Month,"MT5
+33699080
+Mm123456$$
+vantagemarkets-live8
+vantagemarkets-live8
+Personal
+0.04",,1.0,Running,CV7,10380.0,0.01,2026-07-24 00:00:00,2026-08-24 00:00:00,

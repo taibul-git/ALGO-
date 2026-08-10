@@ -1,0 +1,426 @@
+Client Nature,Telegram Name,Trading Platform, Trading Account Number,Account password,Server Name,Server ID,Account Balance,Account Type,Fixed Lot Size,Algo Plan,Client Information, NOTE,SETUP,STATUS,VPS No.,ID,PARAMETERS,ACTIVATION,EXPIRE DATE
+New Client,O.Shane ,MT5,5114074.0,KiL!2heI,Eightcap Global-Live,,509.0,Personal,0.01,Broker Trial,"O.Shane 
+MT5
+5114074
+KiL!2heI
+Eightcap Global-Live
+509$
+Personal
+0.01",,False,EXPIRED,CV11,,"XAUUSD:0.01,USDJPY:0.01",2025-10-09 00:00:00,2025-10-24 00:00:00
+New Client,Rafiq ,MT5,5111392.0,Rik555999@#,EightcapGlobal-Live,,509.36,Personal,0.02,Broker Trial,"Rafiq 
+MT5
+5111392
+Rik555999@#
+EightcapGlobal-Live
+509$
+Personal
+0.02",,False,EXPIRED,CV12,,"XAUUSD:0.01,USDJPY:0.01",2025-10-13 00:00:00,2025-10-29 00:00:00
+New Client,RK,MT5,5107297.0,uJ$WUp3V,EightcapGlobal-Live,,510.0,Personal,,Broker Trial,"RK
+MT5
+5107297
+uJ$WUp3V
+EightcapGlobal-Live
+510$
+Personal",,False,EXPIRED,CV12,,"XAUUSD:0.01,USDJPY:0.01",2025-10-13 00:00:00,2025-10-29 00:00:00
+New Client,Ous D,MT5,5114468.0,KI8%@E1i,EightcapGlobal-Live,Access-Server-2-LON,2500.0,Personal,0.1,Broker Trial,"Ous D
+MT5
+5114468
+KI8%@E1i
+EightcapGlobal-Live
+Access-Server-2-LON
+2,500$
+Personal
+0.1",,False,EXPIRED,CV11,,"XAUUSD:0.01,USDJPY:0.01",2025-10-14 00:00:00,2025-10-29 00:00:00
+New Client,Keerthi Anushka,MT5,5114762.0,$58#@siR,EightcapGlobal-Live,,510.0,Personal,0.01,Broker Trial,"Keerthi Anushka
+MT5
+5114762
+$58#@siR
+EightcapGlobal-Live
+510$
+Personal
+0.01",,False,EXPIRED,CV11,,"XAUUSD:0.01,USDJPY:0.01",2025-10-14 00:00:00,2025-10-29 00:00:00
+New Client,Konrad ,MT4,8327026.0,ZUbw7BcJ,EightcapLtd-Real4,,510.0,Personal,,Broker Trial,"Konrad 
+MT4
+8327026
+ZUbw7BcJ
+EightcapLtd-Real4
+510$
+Personal",,False,EXPIRED,CV11,,"XAUUSD.i:0.01,USDJPY.i:0.01",2025-10-14 00:00:00,2025-10-29 00:00:00
+,Felix JamesNow,MT5,5114727.0,wGK\Y6i6,EightcapGlobal-Live,,515.0,Personal,,Broker Trial,"Felix JamesNow
+MT5
+5114727
+wGK\Y6i6
+EightcapGlobal-Live
+515$
+Personal",,False,EXPIRED,CV11,,"XAUUSD:0.01,USDJPY:0.01",2025-10-17 00:00:00,2025-10-31 00:00:00
+New Client,Bohdan ,MT5,5116315.0,Algo1234+,,"Eightcap-Global
+",592.5,Personal,,Broker Trial,"Bohdan 
+MT5
+5116315
+Algo1234+
+Eightcap-Global
+593$
+Personal",,False,EXPIRED,CV5,,"XAUUSD:0.01,USDJPY:0.01",2025-10-23 00:00:00,2025-11-10 00:00:00
+New Client,Txiki2000 ,MT5,5116218.0,x0iJjqH$,EightcapGlobal-Live,,600.0,Personal,,Broker Trial,"Txiki2000 
+MT5
+5116218
+x0iJjqH$
+EightcapGlobal-Live
+600$
+Personal",,False,EXPIRED,CV7,,"XAUUSD:0.01,USDJPY:0.01",2025-10-24 00:00:00,2025-11-10 00:00:00
+New Client,Happy ,MT5,5117231.0,G5!v9wfX,EightcapGlobal-Live,EightcapGlobal-Live,509.0,Personal,0.02,Broker Trial,"Happy 
+MT5
+5117231
+G5!v9wfX
+EightcapGlobal-Live
+EightcapGlobal-Live
+509$
+Personal
+0.02",,False,EXPIRED,CV12,,0.01,2025-10-30 00:00:00,2025-11-13 00:00:00
+New Client,Mame Kebe,MT5,5117825.0,!W1Lf0Ig,EightcapGlobal-Live,Access-Server-2-LON,,Personal,0.05,Broker Trial,"Mame Kebe
+MT5
+5117825
+!W1Lf0Ig
+EightcapGlobal-Live
+Access-Server-2-LON
+Personal
+0.05",,False,EXPIRED,CV12,,0.01,2025-11-04 00:00:00,2025-11-18 00:00:00
+New Client,Gris Loreto ,MT5,5118283.0,3jk7fQ!8,EightcapGlobal-Live,,520.0,Personal,0.03,Broker Trial,"Gris Loreto 
+MT5
+5118283
+3jk7fQ!8
+EightcapGlobal-Live
+520$
+Personal
+0.03",,False,EXPIRED,CV7,,0.01,2025-11-06 00:00:00,2025-11-20 00:00:00
+New Client,Joan .,MT5,5117566.0,"
+SgFeCWFHsYqn!hB@k@8M",Eightcap-Global,Eightcap-Global,450.0,Personal,0.02,Broker Trial,"Joan .
+MT5
+5117566
+
+SgFeCWFHsYqn!hB@k@8M
+Eightcap-Global
+Eightcap-Global
+450$
+Personal
+0.02",,False,EXPIRED,CV7,,0.01,2025-11-10 00:00:00,2025-11-24 00:00:00
+New Client,Rakib ,MT5,5118714.0,&9Na%GzR,EightcapGlobal-Live,EightcapGlobal-Live,510.0,Personal,0.01,Broker Trial,"Rakib 
+MT5
+5118714
+&9Na%GzR
+EightcapGlobal-Live
+EightcapGlobal-Live
+510$
+Personal
+0.01",,False,EXPIRED,CV7,,0.01,2025-11-10 00:00:00,2025-11-24 00:00:00
+New Client,PFRVAN2025 ,MT5,5118703.0,&5yowwoG,EightcapGlobal-Live,,,Personal,0.02,Broker Trial,"PFRVAN2025 
+MT5
+5118703
+&5yowwoG
+EightcapGlobal-Live
+Personal
+0.02",,False,EXPIRED,CV1,,0.01,2025-11-11 00:00:00,2025-11-25 00:00:00
+New Client,Nizzy ,MT5,5117622.0,&HwgbZz7,EightcapGlobal-Live,"Live access server 2-LON,Hedge",508.0,Personal,0.02,Broker Trial,"Nizzy 
+MT5
+5117622
+&HwgbZz7
+EightcapGlobal-Live
+Live access server 2-LON,Hedge
+508$
+Personal
+0.02",,False,EXPIRED,CV1,,0.01,2025-11-11 00:00:00,2025-11-25 00:00:00
+New Client,araz ,MT5,5118653.0,Mut1WCp*,EightcapGlobal-Live,,510.0,Personal,0.05,Broker Trial,"araz 
+MT5
+5118653
+Mut1WCp*
+EightcapGlobal-Live
+510$
+Personal
+0.05",,False,EXPIRED,CV13,,0.01,2025-11-24 00:00:00,2025-12-08 00:00:00
+New Client,DonDinero ,MT5,5120133.0,h*0tHrSI,EightcapGlobal-Live,,,Personal,0.01,Broker Trial,"DonDinero 
+MT5
+5120133
+h*0tHrSI
+EightcapGlobal-Live
+Personal
+0.01",,False,EXPIRED,CV13,,0.01,2025-11-24 00:00:00,2025-12-08 00:00:00
+New Client,Jerome Vand,MT5,5119607.0,*$m4XG0f,EightcapGlobal-Live,EightcapGlobal-Live,422.0,Personal,0.02,Broker Trial,"Jerome Vand
+MT5
+5119607
+*$m4XG0f
+EightcapGlobal-Live
+EightcapGlobal-Live
+422$
+Personal
+0.02",,False,EXPIRED,CV7,,0.01,2025-11-27 00:00:00,2025-12-11 00:00:00
+New Client,Ⲙd Shคhคdคτ H☢รsaⁱn ✌️,MT5,5119803.0,&P@g4@rM, EightcapGlobal-Live,,510.0,Personal,0.03,Broker Trial,"Ⲙd Shคhคdคτ H☢รsaⁱn ✌️
+MT5
+5119803
+&P@g4@rM
+ EightcapGlobal-Live
+510$
+Personal
+0.03",,False,EXPIRED,CV7,,0.01,2025-11-24 00:00:00,2025-12-08 00:00:00
+New Client,Julio Machine,MT5,5120612.0,GpZ845\e, EightcapGlobal-Live,,510.0,Personal,0.2,Broker Trial,"Julio Machine
+MT5
+5120612
+GpZ845\e
+ EightcapGlobal-Live
+510$
+Personal
+0.2",,False,,,,,,
+New Client,Joe ,MT5,5119407.0,n@%#wU8\,Eightcap-Global,EightcapGlobal-Live,,Personal,,Broker Trial,"Joe 
+MT5
+5119407
+n@%#wU8\
+Eightcap-Global
+EightcapGlobal-Live
+Personal",,False,EXPIRED,CV11,,0.01,2025-11-27 00:00:00,2025-12-11 00:00:00
+New Client,Lingesh Guru,MT5,5120621.0,9PXASCa@,EightcapGlobal-Live,,540.0,Personal,,Broker Trial,"Lingesh Guru
+MT5
+5120621
+9PXASCa@
+EightcapGlobal-Live
+540$
+Personal",,False,EXPIRED,CV7,,0.01,2025-12-03 00:00:00,2025-12-17 00:00:00
+New Client,Abhishek Reddy,MT5,5121512.0,Abhi@8300,EightcapGlobal-Live,EightcapGlobal-Live,510.0,Personal,0.04,Broker Trial,"Abhishek Reddy
+MT5
+5121512
+Abhi@8300
+EightcapGlobal-Live
+EightcapGlobal-Live
+510$
+Personal
+0.04",,False,,,,,,
+New Client,Um ,MT5,5120813.0,Hanihassan@001,EighcapGlobal-level-hedge,EighcapGlobal-level-hedge,510.0,Personal,0.04,Broker Trial,"Um 
+MT5
+5120813
+Hanihassan@001
+EighcapGlobal-level-hedge
+EighcapGlobal-level-hedge
+510$
+Personal
+0.04",,False,EXPIRED,CV11,,0.01,2025-12-09 00:00:00,2025-12-23 00:00:00
+New Client,VP 63915,MT5,5122227.0,Mee0937826354@,EightcapGlobal-Live,,538.03,Personal,0.01,Broker Trial,"VP 63915
+MT5
+5122227
+Mee0937826354@
+EightcapGlobal-Live
+538$
+Personal
+0.01",,False,EXPIRED,CV15,,0.01,2025-12-10 00:00:00,2025-12-24 00:00:00
+New Client,Tope Fish ,MT5,5120135.0,G4A@Ezmc,Eightcap global-live,,,Personal,0.02,Broker Trial,"Tope Fish 
+MT5
+5120135
+G4A@Ezmc
+Eightcap global-live
+Personal
+0.02",,False,EXPIRED,CV11,,0.01,2025-12-11 00:00:00,2025-12-25 00:00:00
+New Client,Ryan Hill,MT5,20500573.0,T3CE!sJ&,Focusmarkets-real,,625.0,Personal,0.02,Broker Trial,"Ryan Hill
+MT5
+20500573
+T3CE!sJ&
+Focusmarkets-real
+625$
+Personal
+0.02",,False,EXPIRED,CV15,,0.01,2025-12-15 00:00:00,2026-01-03 00:00:00
+New Client,Mr A,MT4,8328468.0,qYxzEU3A,EightcapLtd-Real4,,509.0,Personal,,Broker Trial,"Mr A
+MT4
+8328468
+qYxzEU3A
+EightcapLtd-Real4
+509$
+Personal",,False,EXPIRED,CV16,,0.01,2025-12-15 00:00:00,2026-01-03 00:00:00
+New Client,Neikew ,MT5,5123161.0,M#0JfE0t,EightcapGlobal-Live,EightcapGlobal-Live,509.0,Personal,0.01,Broker Trial,"Neikew 
+MT5
+5123161
+M#0JfE0t
+EightcapGlobal-Live
+EightcapGlobal-Live
+509$
+Personal
+0.01",,False,EXPIRED,CV16,,0.01,2025-12-22 00:00:00,2026-01-05 00:00:00
+New Client,Humberto Fernandes,MT5,5122840.0,f\o6cHw3,EightcapGlobal-Live,,587.0,Personal,0.01,Broker Trial,"Humberto Fernandes
+MT5
+5122840
+f\o6cHw3
+EightcapGlobal-Live
+587$
+Personal
+0.01",,False,EXPIRED,CV18,,0.01,2025-12-23 00:00:00,2026-01-06 00:00:00
+New Client,bro,MT5,5120318.0,For3x@2025,EightcapGlobal-Live,EightcapGlobal-Live,510.0,Personal,0.01,Broker Trial,"bro
+MT5
+5120318
+For3x@2025
+EightcapGlobal-Live
+EightcapGlobal-Live
+510$
+Personal
+0.01",,False,EXPIRED,CV18,,0.01,2026-01-01 00:00:00,2026-01-15 00:00:00
+New Client,Juan ,MT5,5123902.0,O63s6#vj,EightcapGlobal-Live,,,Personal,0.01,Broker Trial,"Juan 
+MT5
+5123902
+O63s6#vj
+EightcapGlobal-Live
+Personal
+0.01",,False,EXPIRED,CV18,,0.01,2026-01-01 00:00:00,2026-01-15 00:00:00
+New Client,Marko Ristic,MT5,5123895.0,BGX\v2Hg,EightcapGlobal-Live,EightcapGlobal-Live - Hedge - Eightcap Global Limited,,Personal,,Broker Trial,"Marko Ristic
+MT5
+5123895
+BGX\v2Hg
+EightcapGlobal-Live
+EightcapGlobal-Live - Hedge - Eightcap Global Limited
+Personal",,False,EXPIRED,CV20,,0.01,2026-01-05 00:00:00,2026-01-21 00:00:00
+New Client,Dumisani Mkhwanazi - Tydra.wam,MT4,8329009.0,6xXg47UK,EightcapLtd-Real4,,510.0,Personal,0.03,Broker Trial,"Dumisani Mkhwanazi - Tydra.wam
+MT4
+8329009
+6xXg47UK
+EightcapLtd-Real4
+510$
+Personal
+0.03",,False,EXPIRED,CV20,,0.01,2026-01-06 00:00:00,2026-01-21 00:00:00
+New Client,Paulo Grisard,MT5,5123415.0,Algo2026-001,EightcapGlobal-Live,,302.9,Personal,0.02,Broker Trial,"Paulo Grisard
+MT5
+5123415
+Algo2026-001
+EightcapGlobal-Live
+303$
+Personal
+0.02",,False,EXPIRED,CV21,,0.01,2026-01-13 00:00:00,2026-01-21 00:00:00
+New Client,Eko Prapsilo,MT5,5125862.0,S2E5Xl!y,EightcapGlobal-Live,5125862,800.0,Personal,0.01,Broker Trial,"Eko Prapsilo
+MT5
+5125862
+S2E5Xl!y
+EightcapGlobal-Live
+5125862
+800$
+Personal
+0.01",,False,EXPIRED,CV2,,0.01,2026-01-23 00:00:00,2026-02-06 00:00:00
+New Client,William Agbo,MT5,5114174.0,70E$Y9vC,EightcapGlobal-Live,Access-Server-2-LON,508.24,Personal,0.04,Broker Trial,"William Agbo
+MT5
+5114174
+70E$Y9vC
+EightcapGlobal-Live
+Access-Server-2-LON
+508$
+Personal
+0.04",,False,EXPIRED,,,0.04,30.01.2026,14.02.2026
+New Client,S A ,MT5,5129511.0,*ZIO!Rv6,EightcapGlobal-Live,EightcapGlobal-Live,509.0,Personal,0.01,Broker Trial,"S A 
+MT5
+5129511
+*ZIO!Rv6
+EightcapGlobal-Live
+EightcapGlobal-Live
+509$
+Personal
+0.01",,False,EXPIRED,CV20,,0.01,2026-02-13 00:00:00,2026-02-28 00:00:00
+New Client,David lemos,MT5,5129799.0,KUC6$l5T,EightcapGlobal-Live,EightcapGlobal-Live,500.0,Personal,0.01,Broker Trial,"David lemos
+MT5
+5129799
+KUC6$l5T
+EightcapGlobal-Live
+EightcapGlobal-Live
+500$
+Personal
+0.01",,False,EXPIRED,CV21,,0.01,2026-02-16 00:00:00,2026-03-04 00:00:00
+New Client,Andy ,MT5,5130304.0,4#DLCKjI,EightcapGlobal-Live,,700.0,Personal,0.05,Broker Trial,"Andy 
+MT5
+5130304
+4#DLCKjI
+EightcapGlobal-Live
+700$
+Personal
+0.05",,False,EXPIRED,CV16,,0.01,2026-02-20 00:00:00,2026-03-09 00:00:00
+New Client,Stelios M,MT5,5131732.0,J1c7@NOj,EightcapGlobal-Live,EightcapGlobal-Live,430.0,Personal,0.01,Broker Trial,"Stelios M
+MT5
+5131732
+J1c7@NOj
+EightcapGlobal-Live
+EightcapGlobal-Live
+430$
+Personal
+0.01",,False,EXPIRED,CV21,,0.01,2026-03-05 00:00:00,2026-03-20 00:00:00
+New Client,Kobi Leon,MT5,5131668.0,EAw\B#Q8 or GLNkl13579,Eightcapglobal-live,Eightcap Global limited,2200.0,Personal,,Broker Trial,"Kobi Leon
+MT5
+5131668
+EAw\B#Q8 or GLNkl13579
+Eightcapglobal-live
+Eightcap Global limited
+2,200$
+Personal",,False,CLOSED ON VPS,CV7,10337.0,0.01,2026-03-09 00:00:00,2026-03-24 00:00:00
+New Client,Extrader ,MT5,5120645.0,Passion@0406,EIGHTCAP,EightcapGlobal-Live,300.0,Personal,0.03,Broker Trial,"Extrader 
+MT5
+5120645
+Passion@0406
+EIGHTCAP
+EightcapGlobal-Live
+300$
+Personal
+0.03",,False,,,,,,
+New Client,Puritie🖤 ,MT5,5130537.0,6196DONmes...,Eightcap-Global,,510.0,Personal,0.02,Broker Trial,"Puritie🖤 
+MT5
+5130537
+6196DONmes...
+Eightcap-Global
+510$
+Personal
+0.02",,False,CLOSED ON VPS,CV7,,0.01,2026-03-13 00:00:00,2026-03-30 00:00:00
+New Client,In Him Is Life ,MT5,5131301.0,5f3$94rG,EightcapGlobal-Live,USD 001,472.0,Personal,0.02,Broker Trial,"In Him Is Life 
+MT5
+5131301
+5f3$94rG
+EightcapGlobal-Live
+USD 001
+472$
+Personal
+0.02",,False,CLOSED ON VPS,CV16,10342.0,0.01,2026-03-16 00:00:00,2026-03-31 00:00:00
+New Client,Marc ,MT5,5131476.0,Q@0EEpb!,Eightcap-Global,EightcapGlobal-Live,536.46,Personal,0.02,Broker Trial,"Marc 
+MT5
+5131476
+Q@0EEpb!
+Eightcap-Global
+EightcapGlobal-Live
+536$
+Personal
+0.02",,False,EXPIRED,CV7,,0.01,2026-03-16 00:00:00,2026-03-31 00:00:00
+New Client,Mạnh Đức,MT5,5136704.0,Quan2007@,Eightcap-Global,Eightcap-Global,658.84,Personal,0.01,Broker Trial,"Mạnh Đức
+MT5
+5136704
+Quan2007@
+Eightcap-Global
+Eightcap-Global
+659$
+Personal
+0.01",,False,EXPIRED,CV2,10355.0,0.01,2026-04-09 00:00:00,2026-04-24 00:00:00
+New Client,Holanyro ,MT5,5136865.0,w#6xrQwg,EightcapGlobal-Live,,514.42,Personal,,Broker Trial,"Holanyro 
+MT5
+5136865
+w#6xrQwg
+EightcapGlobal-Live
+514$
+Personal",,False,EXPIRED,CV18,10356.0,0.01,2026-04-09 00:00:00,2026-04-24 00:00:00
+New Client,Lukej.Wick ,MT4,63399087.0,Algo!123,RoboForex-DemoPro,,1000.0,Personal,0.2,Broker Trial,"Lukej.Wick 
+MT4
+63399087
+Algo!123
+RoboForex-DemoPro
+1,000$
+Personal
+0.2",,False,EXPIRED,CV19,10321.0,0.02,2026-04-23 00:00:00,2026-05-08 00:00:00
+,,,,,,,,,,,,,False,,,,,,
+,,,,,,,,,,,,,False,,,,,,
+,,,,,,,,,,,,,False,,,,,,
+,,,,,,,,,,,,,False,,,,,,
+,,,,,,,,,,,,,False,,,,,,
+,,,,,,,,,,,,,False,,,,,,
+,,,,,,,,,,,,,False,,,,,,
+,,,,,,,,,,,,,False,,,,,,
+,,,,,,,,,,,,,False,,,,,,
+,,,,,,,,,,,,,False,,,,,,
+,,,,,,,,,,,,,False,,,,,,
+,,,,,,,,,,,,,False,,,,,,
+,,,,,,,,,,,,,False,,,,,,
+,,,,,,,,,,,,,False,,,,,,
+,,,,,,,,,,,,,False,,,,,,
+,,,,,,,,,,,,,False,,,,,,
+,,,,,,,,,,,,,False,,,,,,

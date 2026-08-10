@@ -1,0 +1,43 @@
+== Resetting tables ==
+== Seeding default users ==
+
+== Importing clients ==
+Imported 453 clients from "Algo Client Account Information".
+Imported 272 additional client stubs from "CLIENT INFO" that had no matching account row.
+
+== Importing issues ==
+Imported 1106 issues from "Client Issue Assign" (CS Sheet, canonical log).
+Note: "Client Issue Assign(New)" tab in the Setup workbook (1109 rows) is byte-identical to the CS Sheet version above (mirrored automatically by the old Sheets automation) — not re-imported as a duplicate copy.
+Imported 437 issues from "Algo Issues Assign" (Setup Sheet legacy tab).
+
+== Importing setups ==
+Imported 224 setups from "Lifetime(new)".
+Imported 173 setups from "One month(New)".
+Imported 50 setups from "Broker trial (new)".
+Imported 4 setups from "Broker lifetime".
+Imported 151 setups from legacy "LIFETIME" tab.
+Imported 108 setups from legacy "ONE MONTH" tab.
+Imported 104 setups from legacy "BROKER TRIALS" tab.
+Imported 437 setups from "ALL DATA" master tab (plan type defaulted to one_month — flagged in notes for review since the source tab didn't specify plan).
+
+== Importing running accounts ==
+Imported 31 rows from "RUNNING".
+Imported 45 rows from "Running Active".
+Imported 86 rows from "RunningActive".
+Imported 12 rows from "Running prop".
+Imported 18 rows from "Runningprop".
+
+== Importing VPS credentials ==
+Imported 24 VPS credential records.
+
+== Importing status page ==
+Imported 737 status page entries (across One Month / Lifetime / Broker Trials blocks).
+
+== Final counts ==
+users: 3
+clients: 725
+issues: 1543
+setups: 1251
+running_accounts: 192
+vps_credentials: 24
+status_page: 737
