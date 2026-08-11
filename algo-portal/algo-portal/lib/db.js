@@ -18,25 +18,25 @@ function toPg(query) {
 }
 
 export async function dbAll(query, params = []) {
-  return await sql.query(toPg(query), params);
+  return await sql(toPg(query), params);
 }
 
 export async function dbGet(query, params = []) {
-  const rows = await sql.query(toPg(query), params);
+  const rows = await sql(toPg(query), params);
   return rows[0];
 }
 
 // For INSERT/UPDATE/DELETE. If the query contains RETURNING, the returned rows are passed back.
 export async function dbRun(query, params = []) {
-  return await sql.query(toPg(query), params);
+  return await sql(toPg(query), params);
 }
 
 export async function initSchema() {
   const schema = fs.readFileSync(path.join(__dirname, 'schema.postgres.sql'), 'utf-8');
-  // Neon's sql.query() runs one statement at a time; split on statement boundaries.
+  // Neon's sql() runs one statement at a time; split on statement boundaries.
   const statements = schema.split(';').map(s => s.trim()).filter(Boolean);
   for (const stmt of statements) {
-    await sql.query(stmt);
+    await sql(stmt);
   }
 }
 
