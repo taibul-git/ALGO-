@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import api from '../../api/client';
 import { Modal, Field, inputCls } from '../../components/ui';
-import { Plus, Eye, EyeOff } from 'lucide-react';
+import { Plus, Eye, EyeOff, Pencil, Check, X } from 'lucide-react';
 
 const EMPTY = { vps_name: '', username: '', address: '', password: '', remarks: '' };
 
@@ -11,6 +11,8 @@ export default function VpsCredentials() {
   const [form, setForm] = useState(EMPTY);
   const [saving, setSaving] = useState(false);
   const [revealed, setRevealed] = useState({});
+  const [editingId, setEditingId] = useState(null);
+  const [editForm, setEditForm] = useState(EMPTY);
 
   const load = () => api.get('/vps').then((res) => setRows(res.data));
   useEffect(() => { load(); }, []);
@@ -23,6 +25,28 @@ export default function VpsCredentials() {
       setModalOpen(false); setForm(EMPTY); load();
     } finally { setSaving(false); }
   };
+
+  const startEdit = (v) => {
+    setEditingId(v.id);
+    setEditForm({ vps_name: v.vps_name || '', username: v.username || '', address: v.address || '', password: v.password || '', remarks: v.remarks || '' });
+  };
+
+  const cancelEdit = () => { setEditingId(null); setEditForm(EMPTY); };
+
+  const saveEdit = async (id) => {
+    await api.patch(`/vps/${id}`, editForm);
+    setEditingId(null);
+    load();
+  };
+
+  const cellInput = (field, type = 'text') => (
+    <input
+      type={type}
+      className="w-full text-sm border border-slate-200 rounded-lg px-2 py-1.5 focus:outline-none focus:ring-2 focus:ring-[#2FB3A6]/40"
+      value={editForm[field]}
+      onChange={(e) => setEditForm({ ...editForm, [field]: e.target.value })}
+    />
+  );
 
   return (
     <div>
@@ -45,26 +69,50 @@ export default function VpsCredentials() {
               <th className="px-4 py-3">Address</th>
               <th className="px-4 py-3">Password</th>
               <th className="px-4 py-3">Remarks</th>
+              <th className="px-4 py-3">Assigned Setups</th>
+              <th className="px-4 py-3"></th>
             </tr>
           </thead>
           <tbody>
-            {rows.map((v) => (
-              <tr key={v.id} className="border-b border-slate-50 hover:bg-slate-50">
-                <td className="px-4 py-3 font-medium text-slate-800">{v.vps_name || '—'}</td>
-                <td className="px-4 py-3 text-slate-600">{v.username || '—'}</td>
-                <td className="px-4 py-3 text-slate-600">{v.address || '—'}</td>
-                <td className="px-4 py-3 text-slate-600">
-                  <div className="flex items-center gap-2">
-                    <span>{revealed[v.id] ? (v.password || '—') : '••••••••'}</span>
-                    <button onClick={() => setRevealed({ ...revealed, [v.id]: !revealed[v.id] })} className="text-slate-400 hover:text-slate-600">
-                      {revealed[v.id] ? <EyeOff size={14} /> : <Eye size={14} />}
-                    </button>
-                  </div>
-                </td>
-                <td className="px-4 py-3 text-slate-600 max-w-xs truncate" title={v.remarks}>{v.remarks || '—'}</td>
-              </tr>
-            ))}
-            {!rows.length && <tr><td colSpan={5} className="px-4 py-10 text-center text-slate-400">No VPS records yet.</td></tr>}
+            {rows.map((v) => {
+              const isEditing = editingId === v.id;
+              return (
+                <tr key={v.id} className="border-b border-slate-50 hover:bg-slate-50">
+                  <td className="px-4 py-3 font-medium text-slate-800">{isEditing ? cellInput('vps_name') : (v.vps_name || '—')}</td>
+                  <td className="px-4 py-3 text-slate-600">{isEditing ? cellInput('username') : (v.username || '—')}</td>
+                  <td className="px-4 py-3 text-slate-600">{isEditing ? cellInput('address') : (v.address || '—')}</td>
+                  <td className="px-4 py-3 text-slate-600">
+                    {isEditing ? cellInput('password') : (
+                      <div className="flex items-center gap-2">
+                        <span>{revealed[v.id] ? (v.password || '—') : '••••••••'}</span>
+                        <button onClick={() => setRevealed({ ...revealed, [v.id]: !revealed[v.id] })} className="text-slate-400 hover:text-slate-600">
+                          {revealed[v.id] ? <EyeOff size={14} /> : <Eye size={14} />}
+                        </button>
+                      </div>
+                    )}
+                  </td>
+                  <td className="px-4 py-3 text-slate-600 max-w-xs truncate" title={v.remarks}>{isEditing ? cellInput('remarks') : (v.remarks || '—')}</td>
+                  <td className="px-4 py-3">
+                    <span className="inline-flex items-center justify-center min-w-[1.75rem] px-2 py-0.5 rounded-full text-xs font-medium bg-slate-100 text-slate-600" title="Auto-counted from Setup records — not manually editable">
+                      {v.assigned_count}
+                    </span>
+                  </td>
+                  <td className="px-4 py-3 text-right whitespace-nowrap">
+                    {isEditing ? (
+                      <div className="flex items-center gap-2 justify-end">
+                        <button onClick={() => saveEdit(v.id)} className="text-[#2FB3A6] hover:text-[#279e93]" title="Save"><Check size={16} /></button>
+                        <button onClick={cancelEdit} className="text-slate-400 hover:text-slate-600" title="Cancel"><X size={16} /></button>
+                      </div>
+                    ) : (
+                      <button onClick={() => startEdit(v)} className="text-slate-400 hover:text-[#2FB3A6]" title="Edit">
+                        <Pencil size={15} />
+                      </button>
+                    )}
+                  </td>
+                </tr>
+              );
+            })}
+            {!rows.length && <tr><td colSpan={7} className="px-4 py-10 text-center text-slate-400">No VPS records yet.</td></tr>}
           </tbody>
         </table>
       </div>
