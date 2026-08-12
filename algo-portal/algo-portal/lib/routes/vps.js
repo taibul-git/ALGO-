@@ -5,7 +5,10 @@ import { requireAuth, requireRole } from '../middleware/auth.js';
 const router = express.Router();
 
 router.get('/', requireAuth, requireRole('admin', 'setup'), async (req, res) => {
-  const rows = await dbAll('SELECT * FROM vps_credentials ORDER BY created_at DESC');
+  const rows = await dbAll(`
+    SELECT v.*, (SELECT COUNT(*)::int FROM setups s WHERE s.vps_id = v.id) as assigned_count
+    FROM vps_credentials v ORDER BY v.created_at DESC
+  `);
   res.json(rows);
 });
 
