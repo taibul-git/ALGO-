@@ -43,7 +43,7 @@ router.post('/', requireAuth, requireRole('admin', 'cs'), async (req, res) => {
 router.patch('/:id', requireAuth, requireRole('admin', 'cs', 'setup'), async (req, res) => {
   const existing = await dbGet('SELECT * FROM issues WHERE id = ?', [req.params.id]);
   if (!existing) return res.status(404).json({ error: 'Issue not found' });
-  const allowed = ['category', 'details', 'status', 'remarks', 'assigned_to'];
+  const allowed = ['category', 'telegram_name', 'account_number', 'details', 'status', 'remarks', 'assigned_to'];
   const updates = []; const values = [];
   for (const f of allowed) {
     if (req.body[f] !== undefined && req.body[f] !== existing[f]) {
@@ -58,7 +58,7 @@ router.patch('/:id', requireAuth, requireRole('admin', 'cs', 'setup'), async (re
   res.json(await dbGet('SELECT * FROM issues WHERE id = ?', [req.params.id]));
 });
 
-router.delete('/:id', requireAuth, requireRole('admin'), async (req, res) => {
+router.delete('/:id', requireAuth, requireRole('admin', 'cs'), async (req, res) => {
   await dbRun('DELETE FROM issues WHERE id = ?', [req.params.id]);
   await logActivity({ userId: req.user.id, entityType: 'issue', entityId: req.params.id, action: 'deleted' });
   res.json({ ok: true });
