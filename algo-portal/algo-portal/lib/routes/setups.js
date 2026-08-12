@@ -34,7 +34,13 @@ router.get('/:id', requireAuth, async (req, res) => {
   const activity = await dbAll(`
     SELECT a.*, u.full_name as user_name FROM activity_log a LEFT JOIN users u ON u.id = a.user_id
     WHERE entity_type='setup' AND entity_id=? ORDER BY a.created_at DESC LIMIT 100`, [req.params.id]);
-  res.json({ ...setup, notes, activity });
+  // Issues belonging to the same client, so the Setup team can see and update
+  // their status (Pending/Solved). Since this reads/writes the same `issues`
+  // table the CS Portal uses, any change here shows up in the CS Portal instantly.
+  const issues = setup.client_id
+    ? await dbAll('SELECT * FROM issues WHERE client_id = ? ORDER BY created_at DESC', [setup.client_id])
+    : [];
+  res.json({ ...setup, notes, activity, issues });
 });
 
 router.patch('/:id', requireAuth, requireRole('admin', 'setup'), async (req, res) => {
