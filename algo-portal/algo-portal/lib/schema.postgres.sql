@@ -165,3 +165,7 @@ CREATE TABLE IF NOT EXISTS activity_log (
 );
 CREATE INDEX IF NOT EXISTS idx_activity_entity ON activity_log(entity_type, entity_id);
 CREATE INDEX IF NOT EXISTS idx_activity_user ON activity_log(user_id);
+-- Links a Setup to a specific VPS credential record, so the VPS Credentials
+-- page can show a live count of how many setups are assigned to each VPS.
+ALTER TABLE setups ADD COLUMN IF NOT EXISTS vps_id INTEGER REFERENCES vps_credentials(id);
+CREATE INDEX IF NOT EXISTS idx_setups_vps ON setups(vps_id);
