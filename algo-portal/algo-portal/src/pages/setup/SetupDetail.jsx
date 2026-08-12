@@ -37,6 +37,11 @@ export default function SetupDetail() {
     setNoteText(''); load();
   };
 
+  const toggleIssueStatus = async (issue) => {
+    await api.patch(`/issues/${issue.id}`, { status: issue.status === 'Pending' ? 'Solved' : 'Pending' });
+    load();
+  };
+
   if (!setup) return <div className="text-slate-400 text-sm">Loading…</div>;
 
   return (
@@ -96,6 +101,28 @@ export default function SetupDetail() {
               </div>
             </div>
             <p className="text-xs text-slate-400 mt-1">Source: {setup.source_tab}</p>
+          </div>
+
+          <div className="bg-white rounded-xl border border-slate-200 p-5">
+            <h3 className="font-medium text-slate-800 mb-1">Client issues</h3>
+            <p className="text-xs text-slate-400 mb-4">Marking Resolved/Pending here updates instantly in the CS Portal too — same record, both places.</p>
+            <div className="space-y-3">
+              {(setup.issues || []).map((i) => (
+                <div key={i.id} className="border border-slate-100 rounded-lg p-3">
+                  <div className="flex items-center justify-between">
+                    <span className="text-sm font-medium text-slate-700">{i.category || 'Uncategorized'}</span>
+                    <div className="flex items-center gap-3">
+                      <StatusBadge status={i.status} />
+                      <button onClick={() => toggleIssueStatus(i)} className="text-[#2FB3A6] hover:underline text-xs font-medium whitespace-nowrap">
+                        Mark {i.status === 'Pending' ? 'Resolved' : 'Pending'}
+                      </button>
+                    </div>
+                  </div>
+                  <p className="text-sm text-slate-600 mt-1 whitespace-pre-line">{i.details}</p>
+                </div>
+              ))}
+              {!(setup.issues || []).length && <p className="text-sm text-slate-400">No issues logged for this client.</p>}
+            </div>
           </div>
         </div>
 
