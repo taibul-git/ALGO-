@@ -46,7 +46,19 @@ router.get('/:id', requireAuth, async (req, res) => {
 router.patch('/:id', requireAuth, requireRole('admin', 'setup'), async (req, res) => {
   const existing = await dbGet('SELECT * FROM setups WHERE id = ?', [req.params.id]);
   if (!existing) return res.status(404).json({ error: 'Setup not found' });
-  const allowed = ['setup_field','setup_status','vps_no','ext_id','parameters','activation_date',
+
+  // If the VPS dropdown changed, also keep the legacy vps_no text column
+  // (used by older reports) in sync with the selected VPS's name.
+  if (req.body.vps_id !== undefined && req.body.vps_id !== existing.vps_id) {
+    if (req.body.vps_id) {
+      const vps = await dbGet('SELECT vps_name FROM vps_credentials WHERE id = ?', [req.body.vps_id]);
+      req.body.vps_no = vps ? vps.vps_name : req.body.vps_no;
+    } else {
+      req.body.vps_no = null;
+    }
+  }
+
+  const allowed = ['setup_field','setup_status','vps_no','vps_id','ext_id','parameters','activation_date',
     'expire_date','vps_expire_date','note','assigned_setup_agent_id','plan_type'];
   const updates = []; const values = [];
   for (const f of allowed) {
