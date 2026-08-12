@@ -12,16 +12,18 @@ export default function SetupDetail() {
   const [form, setForm] = useState({});
   const [noteText, setNoteText] = useState('');
   const [saving, setSaving] = useState(false);
+  const [vpsList, setVpsList] = useState([]);
 
   const load = useCallback(() => {
     api.get(`/setups/${id}`).then((res) => { setSetup(res.data); setForm(res.data); });
   }, [id]);
 
   useEffect(() => { load(); }, [load]);
+  useEffect(() => { api.get('/vps').then((res) => setVpsList(res.data)); }, []);
 
   const save = async () => {
     setSaving(true);
-    const fields = ['setup_field', 'setup_status', 'vps_no', 'ext_id', 'parameters', 'activation_date', 'expire_date', 'vps_expire_date', 'note'];
+    const fields = ['setup_field', 'setup_status', 'vps_id', 'ext_id', 'parameters', 'activation_date', 'expire_date', 'vps_expire_date', 'note'];
     const changed = {};
     for (const f of fields) if (form[f] !== setup[f]) changed[f] = form[f];
     try {
@@ -89,7 +91,12 @@ export default function SetupDetail() {
                   {STATUSES.map((s) => <option key={s} value={s}>{s}</option>)}
                 </select>
               </Field>
-              <Field label="VPS No."><input className={inputCls} value={form.vps_no || ''} onChange={(e) => setForm({ ...form, vps_no: e.target.value })} /></Field>
+              <Field label="VPS No.">
+                <select className={inputCls} value={form.vps_id || ''} onChange={(e) => setForm({ ...form, vps_id: e.target.value ? Number(e.target.value) : null })}>
+                  <option value="">— Not assigned —</option>
+                  {vpsList.map((v) => <option key={v.id} value={v.id}>{v.vps_name} {v.address ? `(${v.address})` : ''}</option>)}
+                </select>
+              </Field>
               <Field label="ID"><input className={inputCls} value={form.ext_id || ''} onChange={(e) => setForm({ ...form, ext_id: e.target.value })} /></Field>
               <Field label="Parameters"><input className={inputCls} value={form.parameters || ''} onChange={(e) => setForm({ ...form, parameters: e.target.value })} /></Field>
               <Field label="Activation Date"><input className={inputCls} value={form.activation_date || ''} onChange={(e) => setForm({ ...form, activation_date: e.target.value })} /></Field>
