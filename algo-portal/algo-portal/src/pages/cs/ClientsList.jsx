@@ -13,6 +13,7 @@ const EMPTY = {
 
 export const ACCOUNT_TYPE_OPTIONS = ['PERSONAL ACCOUNT', 'PROP-FIRM'];
 export const ALGO_PLAN_OPTIONS = ['ALGO LIFETIME', 'ALGO 1 MONTH', 'BROKER LIFETIME'];
+export const CLIENT_NATURE_OPTIONS = ['New Client', 'Account Replace', 'Plan Upgrade', 'Auto-renewal'];
 
 export default function ClientsList() {
   const { user } = useAuth();
@@ -107,7 +108,12 @@ export default function ClientsList() {
       <Modal open={modalOpen} onClose={() => setModalOpen(false)} title="Add new client" wide>
         <form onSubmit={handleSubmit} className="grid grid-cols-2 gap-x-4">
           <Field label="Telegram Name *"><input required className={inputCls} value={form.telegram_name} onChange={(e) => setForm({ ...form, telegram_name: e.target.value })} /></Field>
-          <Field label="Client Nature"><input className={inputCls} value={form.client_nature} onChange={(e) => setForm({ ...form, client_nature: e.target.value })} placeholder="New Client / Broker Trial…" /></Field>
+          <Field label="Client Nature">
+            <select className={inputCls} value={form.client_nature} onChange={(e) => setForm({ ...form, client_nature: e.target.value })}>
+              <option value="">— Select —</option>
+              {CLIENT_NATURE_OPTIONS.map((o) => <option key={o} value={o}>{o}</option>)}
+            </select>
+          </Field>
           <Field label="Trading Platform"><input className={inputCls} value={form.trading_platform} onChange={(e) => setForm({ ...form, trading_platform: e.target.value })} placeholder="MT4 / MT5" /></Field>
           <Field label="Trading Account Number"><input className={inputCls} value={form.trading_account_number} onChange={(e) => setForm({ ...form, trading_account_number: e.target.value })} /></Field>
           <Field label="Account Password"><input className={inputCls} value={form.account_password} onChange={(e) => setForm({ ...form, account_password: e.target.value })} /></Field>
