@@ -4,9 +4,9 @@ import api from '../../api/client';
 import { StatusBadge, Field, inputCls } from '../../components/ui';
 import { useAuth } from '../../context/AuthContext';
 import { ArrowLeft } from 'lucide-react';
-import { ACCOUNT_TYPE_OPTIONS, ALGO_PLAN_OPTIONS } from './ClientsList';
+import { ACCOUNT_TYPE_OPTIONS, ALGO_PLAN_OPTIONS, CLIENT_NATURE_OPTIONS } from './ClientsList';
 
-const DROPDOWN_FIELDS = { account_type: ACCOUNT_TYPE_OPTIONS, algo_plan: ALGO_PLAN_OPTIONS };
+const DROPDOWN_FIELDS = { account_type: ACCOUNT_TYPE_OPTIONS, algo_plan: ALGO_PLAN_OPTIONS, client_nature: CLIENT_NATURE_OPTIONS };
 
 const EDITABLE_FIELDS = [
   ['telegram_name', 'Telegram Name'], ['client_nature', 'Client Nature'], ['trading_platform', 'Trading Platform'],
