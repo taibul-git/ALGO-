@@ -4,6 +4,9 @@ import api from '../../api/client';
 import { StatusBadge, Field, inputCls } from '../../components/ui';
 import { useAuth } from '../../context/AuthContext';
 import { ArrowLeft } from 'lucide-react';
+import { ACCOUNT_TYPE_OPTIONS, ALGO_PLAN_OPTIONS } from './ClientsList';
+
+const DROPDOWN_FIELDS = { account_type: ACCOUNT_TYPE_OPTIONS, algo_plan: ALGO_PLAN_OPTIONS };
 
 const EDITABLE_FIELDS = [
   ['telegram_name', 'Telegram Name'], ['client_nature', 'Client Nature'], ['trading_platform', 'Trading Platform'],
@@ -80,7 +83,16 @@ export default function ClientDetail() {
             <div className="grid grid-cols-2 gap-x-4">
               {EDITABLE_FIELDS.map(([f, label]) => (
                 editing ? (
-                  <Field key={f} label={label}><input className={inputCls} value={form[f] || ''} onChange={(e) => setForm({ ...form, [f]: e.target.value })} /></Field>
+                  <Field key={f} label={label}>
+                    {DROPDOWN_FIELDS[f] ? (
+                      <select className={inputCls} value={form[f] || ''} onChange={(e) => setForm({ ...form, [f]: e.target.value })}>
+                        <option value="">— Select —</option>
+                        {DROPDOWN_FIELDS[f].map((o) => <option key={o} value={o}>{o}</option>)}
+                      </select>
+                    ) : (
+                      <input className={inputCls} value={form[f] || ''} onChange={(e) => setForm({ ...form, [f]: e.target.value })} />
+                    )}
+                  </Field>
                 ) : (
                   <div key={f} className="mb-3">
                     <div className="text-xs text-slate-400">{label}</div>
