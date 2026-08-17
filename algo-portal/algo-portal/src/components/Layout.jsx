@@ -29,7 +29,7 @@ const NAV = {
 };
 
 const ROLE_LABEL = { admin: 'Administrator', cs: 'CS Team', setup: 'Setup Team' };
-const ROLE_BADGE = { admin: 'bg-amber-100 text-amber-800', cs: 'bg-sky-100 text-sky-800', setup: 'bg-emerald-100 text-emerald-800' };
+const ROLE_BADGE = { admin: 'bg-[#E8A33D]/15 text-[#E8A33D]', cs: 'bg-[#4FA8E8]/15 text-[#4FA8E8]', setup: 'bg-[#3ECF8E]/15 text-[#3ECF8E]' };
 
 export default function Layout({ children }) {
   const { user, logout } = useAuth();
@@ -37,14 +37,18 @@ export default function Layout({ children }) {
   const items = NAV[user.role] || [];
 
   return (
-    <div className="min-h-screen flex bg-[#F4F6F9]">
-      <aside className="w-64 shrink-0 bg-[#101828] text-slate-200 flex flex-col">
+    <div className="min-h-screen flex bg-[#0B0F14]">
+      <aside className="w-64 shrink-0 bg-[#0B0F14] text-slate-200 flex flex-col">
         <div className="px-6 py-5 border-b border-white/10">
           <div className="flex items-center gap-2">
-            <div className="w-8 h-8 rounded-md bg-[#2FB3A6] flex items-center justify-center font-bold text-[#101828]">A</div>
+            <svg width="30" height="30" viewBox="0 0 30 30" className="shrink-0">
+              <line x1="9" y1="6" x2="9" y2="24" stroke="#3ECF8E" strokeWidth="2" />
+              <rect x="6" y="11" width="6" height="9" fill="#3ECF8E" />
+              <path d="M17 20 L23 8 M23 8 L18 9 M23 8 L22 13" stroke="#3ECF8E" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
             <div>
-              <div className="font-semibold text-white leading-tight">Algo Portal</div>
-              <div className="text-[11px] text-slate-400 leading-tight">CS &amp; Setup CRM</div>
+              <div className="font-semibold text-white leading-tight" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>SureShotFX</div>
+              <div className="text-[11px] text-[#5C6773] leading-tight">Algo ops desk</div>
             </div>
           </div>
         </div>
@@ -57,7 +61,7 @@ export default function Layout({ children }) {
               end={to === '/'}
               className={({ isActive }) =>
                 `flex items-center gap-3 px-3 py-2 rounded-lg text-sm transition-colors ${
-                  isActive ? 'bg-[#2FB3A6]/15 text-[#5FD8CC]' : 'text-slate-300 hover:bg-white/5 hover:text-white'
+                  isActive ? 'bg-[#3ECF8E]/15 text-[#7EE8B0]' : 'text-[#5C6773] hover:bg-white/5 hover:text-white'
                 }`
               }
             >
@@ -79,7 +83,7 @@ export default function Layout({ children }) {
           </div>
           <button
             onClick={() => { logout(); navigate('/login'); }}
-            className="w-full mt-2 flex items-center gap-2 px-3 py-2 rounded-lg text-sm text-slate-300 hover:bg-white/5 hover:text-white transition-colors"
+            className="w-full mt-2 flex items-center gap-2 px-3 py-2 rounded-lg text-sm text-[#5C6773] hover:bg-white/5 hover:text-white transition-colors"
           >
             <LogOut size={16} /> Sign out
           </button>
