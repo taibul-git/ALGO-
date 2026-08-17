@@ -50,20 +50,20 @@ export default function ClientsList() {
     <div>
       <div className="flex items-center justify-between mb-6">
         <div>
-          <h1 className="text-2xl font-semibold text-slate-900">Clients</h1>
-          <p className="text-slate-500 text-sm mt-1">All customer records — adding a client here automatically creates a linked Setup record.</p>
+          <h1 className="text-2xl font-semibold text-[#E8EDF2]">Clients</h1>
+          <p className="text-[#77828E] text-sm mt-1">All customer records — adding a client here automatically creates a linked Setup record.</p>
         </div>
         {canAdd && (
-          <button onClick={() => setModalOpen(true)} className="flex items-center gap-2 bg-[#2FB3A6] hover:bg-[#279e93] text-white text-sm font-medium px-4 py-2 rounded-lg transition-colors">
+          <button onClick={() => setModalOpen(true)} className="flex items-center gap-2 bg-[#3ECF8E] hover:bg-[#2FAD79] text-[#04231A] text-sm font-medium px-4 py-2 rounded-lg transition-colors">
             <Plus size={16} /> Add client
           </button>
         )}
       </div>
 
-      <div className="bg-white rounded-xl border border-slate-200">
-        <div className="p-4 border-b border-slate-100">
+      <div className="bg-[#12181F] rounded-xl border border-[#1F2933]">
+        <div className="p-4 border-b border-[#1F2933]">
           <div className="relative max-w-sm">
-            <Search size={16} className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" />
+            <Search size={16} className="absolute left-3 top-1/2 -translate-y-1/2 text-[#5C6773]" />
             <input
               className={`${inputCls} pl-9`}
               placeholder="Search by Telegram name, account #, server…"
@@ -75,7 +75,7 @@ export default function ClientsList() {
 
         <table className="w-full text-sm">
           <thead>
-            <tr className="text-left text-xs text-slate-500 uppercase border-b border-slate-100">
+            <tr className="text-left text-xs text-[#77828E] uppercase border-b border-[#1F2933]">
               <th className="px-4 py-3">Telegram Name</th>
               <th className="px-4 py-3">Account #</th>
               <th className="px-4 py-3">Plan</th>
@@ -86,19 +86,19 @@ export default function ClientsList() {
           </thead>
           <tbody>
             {data.rows.map((c) => (
-              <tr key={c.id} className="border-b border-slate-50 hover:bg-slate-50">
-                <td className="px-4 py-3 font-medium text-slate-800">{c.telegram_name}</td>
-                <td className="px-4 py-3 text-slate-600">{c.trading_account_number || '—'}</td>
-                <td className="px-4 py-3 text-slate-600">{c.algo_plan || '—'}</td>
-                <td className="px-4 py-3 text-slate-600">{c.server_name || '—'}</td>
+              <tr key={c.id} className="border-b border-[#1F2933] hover:bg-[#171E26]">
+                <td className="px-4 py-3 font-medium text-[#E8EDF2]">{c.telegram_name}</td>
+                <td className="px-4 py-3 text-[#9AA5B1]">{c.trading_account_number || '—'}</td>
+                <td className="px-4 py-3 text-[#9AA5B1]">{c.algo_plan || '—'}</td>
+                <td className="px-4 py-3 text-[#9AA5B1]">{c.server_name || '—'}</td>
                 <td className="px-4 py-3"><StatusBadge status={c.status} /></td>
                 <td className="px-4 py-3 text-right">
-                  <Link to={`/clients/${c.id}`} className="text-[#2FB3A6] hover:underline font-medium">View</Link>
+                  <Link to={`/clients/${c.id}`} className="text-[#3ECF8E] hover:underline font-medium">View</Link>
                 </td>
               </tr>
             ))}
             {!data.rows.length && (
-              <tr><td colSpan={6} className="px-4 py-10 text-center text-slate-400">No clients found.</td></tr>
+              <tr><td colSpan={6} className="px-4 py-10 text-center text-[#5C6773]">No clients found.</td></tr>
             )}
           </tbody>
         </table>
@@ -135,7 +135,7 @@ export default function ClientsList() {
             </select>
           </Field>
           <div className="col-span-2 mt-2">
-            <button disabled={saving} className="w-full bg-[#2FB3A6] hover:bg-[#279e93] text-white font-medium py-2.5 rounded-lg transition-colors disabled:opacity-60">
+            <button disabled={saving} className="w-full bg-[#3ECF8E] hover:bg-[#2FAD79] text-[#04231A] font-medium py-2.5 rounded-lg transition-colors disabled:opacity-60">
               {saving ? 'Saving…' : 'Create client & sync to Setup Portal'}
             </button>
           </div>
