@@ -1,6 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap');
 @import "tailwindcss";
 
+:root {
+  --bg-page: #0B0F14;
+  --bg-panel: #12181F;
+  --bg-panel-hover: #1B232B;
+  --bg-input: #0B0F14;
+  --border: #26323E;
+  --border-strong: #34424F;
+  --text-primary: #EDF1F5;
+  --text-secondary: #D6DCE2;
+  --text-muted: #B7C0C9;
+  --text-faint: #8994A0;
+  --overlay: rgba(0, 0, 0, 0.6);
+
+  --sidebar-bg: #0B0F14;
+  --sidebar-text: #FFFFFF;
+  --sidebar-text-muted: #9AA5B1;
+  --sidebar-border: rgba(255, 255, 255, 0.10);
+  --sidebar-hover-bg: rgba(255, 255, 255, 0.07);
+}
+
+[data-theme="light"] {
+  --bg-page: #F4F6F8;
+  --bg-panel: #FFFFFF;
+  --bg-panel-hover: #F1F4F7;
+  --bg-input: #FFFFFF;
+  --border: #E2E6EA;
+  --border-strong: #CBD2D9;
+  --text-primary: #101828;
+  --text-secondary: #344054;
+  --text-muted: #55606B;
+  --text-faint: #7C8794;
+  --overlay: rgba(15, 23, 42, 0.45);
+
+  --sidebar-bg: #FFFFFF;
+  --sidebar-text: #101828;
+  --sidebar-text-muted: #55606B;
+  --sidebar-border: #E2E6EA;
+  --sidebar-hover-bg: #F1F4F7;
+}
+
 body {
   font-family: 'Inter', sans-serif;
+  background: var(--bg-page);
 }
