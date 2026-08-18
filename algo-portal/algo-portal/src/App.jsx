@@ -11,6 +11,7 @@ import SetupDetail from './pages/setup/SetupDetail';
 import RunningAccounts from './pages/setup/RunningAccounts';
 import VpsCredentials from './pages/setup/VpsCredentials';
 import Users from './pages/admin/Users';
+import Settings from './pages/Settings';
 
 function Page({ children, roles }) {
   return (
@@ -36,6 +37,7 @@ export default function App() {
       <Route path="/vps" element={<Page roles={['admin', 'setup']}><VpsCredentials /></Page>} />
 
       <Route path="/users" element={<Page roles={['admin']}><Users /></Page>} />
+      <Route path="/settings" element={<Page><Settings /></Page>} />
     </Routes>
   );
 }
