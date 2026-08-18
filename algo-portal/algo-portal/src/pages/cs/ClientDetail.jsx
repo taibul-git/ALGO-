@@ -48,38 +48,38 @@ export default function ClientDetail() {
     load();
   };
 
-  if (!client) return <div className="text-[#5C6773] text-sm">Loading…</div>;
+  if (!client) return <div className="text-[var(--text-faint)] text-sm">Loading…</div>;
 
   return (
     <div>
-      <Link to="/clients" className="inline-flex items-center gap-1 text-sm text-[#77828E] hover:text-[#C3CBD3] mb-4">
+      <Link to="/clients" className="inline-flex items-center gap-1 text-sm text-[var(--text-muted)] hover:text-[var(--text-secondary)] mb-4">
         <ArrowLeft size={15} /> Back to clients
       </Link>
 
       <div className="flex items-start justify-between mb-6">
         <div>
-          <h1 className="text-2xl font-semibold text-[#E8EDF2]">{client.telegram_name}</h1>
+          <h1 className="text-2xl font-semibold text-[var(--text-primary)]">{client.telegram_name}</h1>
           <div className="flex items-center gap-2 mt-1">
             <StatusBadge status={client.status} />
-            <span className="text-sm text-[#5C6773]">Account #{client.trading_account_number || '—'}</span>
+            <span className="text-sm text-[var(--text-faint)]">Account #{client.trading_account_number || '—'}</span>
           </div>
         </div>
         {canEdit && (
           editing ? (
             <div className="flex gap-2">
-              <button onClick={() => { setEditing(false); setForm(client); }} className="px-4 py-2 text-sm rounded-lg border border-[#1F2933] text-[#9AA5B1]">Cancel</button>
+              <button onClick={() => { setEditing(false); setForm(client); }} className="px-4 py-2 text-sm rounded-lg border border-[var(--border)] text-[var(--text-muted)]">Cancel</button>
               <button onClick={save} className="px-4 py-2 text-sm rounded-lg bg-[#3ECF8E] text-[#04231A] font-medium">Save changes</button>
             </div>
           ) : (
-            <button onClick={() => setEditing(true)} className="px-4 py-2 text-sm rounded-lg border border-[#1F2933] text-[#9AA5B1] hover:bg-[#171E26]">Edit details</button>
+            <button onClick={() => setEditing(true)} className="px-4 py-2 text-sm rounded-lg border border-[var(--border)] text-[var(--text-muted)] hover:bg-[var(--bg-panel-hover)]">Edit details</button>
           )
         )}
       </div>
 
       <div className="grid grid-cols-3 gap-6">
         <div className="col-span-2 space-y-6">
-          <div className="bg-[#12181F] rounded-xl border border-[#1F2933] p-5">
-            <h3 className="font-medium text-[#E8EDF2] mb-4">Customer information</h3>
+          <div className="bg-[var(--bg-panel)] rounded-xl border border-[var(--border)] p-5">
+            <h3 className="font-medium text-[var(--text-primary)] mb-4">Customer information</h3>
             <div className="grid grid-cols-2 gap-x-4">
               {EDITABLE_FIELDS.map(([f, label]) => (
                 editing ? (
@@ -95,18 +95,18 @@ export default function ClientDetail() {
                   </Field>
                 ) : (
                   <div key={f} className="mb-3">
-                    <div className="text-xs text-[#5C6773]">{label}</div>
-                    <div className="text-sm text-[#E8EDF2]">{client[f] || '—'}</div>
+                    <div className="text-xs text-[var(--text-faint)]">{label}</div>
+                    <div className="text-sm text-[var(--text-primary)]">{client[f] || '—'}</div>
                   </div>
                 )
               ))}
             </div>
           </div>
 
-          <div className="bg-[#12181F] rounded-xl border border-[#1F2933]">
-            <div className="flex border-b border-[#1F2933]">
+          <div className="bg-[var(--bg-panel)] rounded-xl border border-[var(--border)]">
+            <div className="flex border-b border-[var(--border)]">
               {['issues', 'setups', 'activity'].map((t) => (
-                <button key={t} onClick={() => setTab(t)} className={`px-5 py-3 text-sm font-medium capitalize border-b-2 -mb-px ${tab === t ? 'border-[#3ECF8E] text-[#3ECF8E]' : 'border-transparent text-[#77828E]'}`}>
+                <button key={t} onClick={() => setTab(t)} className={`px-5 py-3 text-sm font-medium capitalize border-b-2 -mb-px ${tab === t ? 'border-[#3ECF8E] text-[#3ECF8E]' : 'border-transparent text-[var(--text-muted)]'}`}>
                   {t} {t === 'issues' && `(${client.issues.length})`} {t === 'setups' && `(${client.setups.length})`}
                 </button>
               ))}
@@ -115,41 +115,41 @@ export default function ClientDetail() {
               {tab === 'issues' && (
                 <div className="space-y-3">
                   {client.issues.map((i) => (
-                    <div key={i.id} className="border border-[#1F2933] rounded-lg p-3">
+                    <div key={i.id} className="border border-[var(--border)] rounded-lg p-3">
                       <div className="flex items-center justify-between">
-                        <span className="text-sm font-medium text-[#C3CBD3]">{i.category || 'Uncategorized'}</span>
+                        <span className="text-sm font-medium text-[var(--text-secondary)]">{i.category || 'Uncategorized'}</span>
                         <StatusBadge status={i.status} />
                       </div>
-                      <p className="text-sm text-[#9AA5B1] mt-1 whitespace-pre-line">{i.details}</p>
-                      {i.remarks && <p className="text-xs text-[#5C6773] mt-1">Remarks: {i.remarks}</p>}
+                      <p className="text-sm text-[var(--text-muted)] mt-1 whitespace-pre-line">{i.details}</p>
+                      {i.remarks && <p className="text-xs text-[var(--text-faint)] mt-1">Remarks: {i.remarks}</p>}
                     </div>
                   ))}
-                  {!client.issues.length && <p className="text-sm text-[#5C6773]">No issues logged.</p>}
+                  {!client.issues.length && <p className="text-sm text-[var(--text-faint)]">No issues logged.</p>}
                 </div>
               )}
               {tab === 'setups' && (
                 <div className="space-y-3">
                   {client.setups.map((s) => (
-                    <Link key={s.id} to={`/setups/${s.id}`} className="block border border-[#1F2933] rounded-lg p-3 hover:border-[#3ECF8E]/40">
+                    <Link key={s.id} to={`/setups/${s.id}`} className="block border border-[var(--border)] rounded-lg p-3 hover:border-[#3ECF8E]/40">
                       <div className="flex items-center justify-between">
-                        <span className="text-sm font-medium text-[#C3CBD3] capitalize">{s.plan_type.replace('_', ' ')}</span>
+                        <span className="text-sm font-medium text-[var(--text-secondary)] capitalize">{s.plan_type.replace('_', ' ')}</span>
                         <StatusBadge status={s.setup_status} />
                       </div>
-                      <p className="text-xs text-[#5C6773] mt-1">Source: {s.source_tab}</p>
+                      <p className="text-xs text-[var(--text-faint)] mt-1">Source: {s.source_tab}</p>
                     </Link>
                   ))}
-                  {!client.setups.length && <p className="text-sm text-[#5C6773]">No setup record linked yet.</p>}
+                  {!client.setups.length && <p className="text-sm text-[var(--text-faint)]">No setup record linked yet.</p>}
                 </div>
               )}
               {tab === 'activity' && (
                 <div className="space-y-2">
                   {client.activity.map((a) => (
-                    <div key={a.id} className="text-sm text-[#9AA5B1] flex justify-between">
+                    <div key={a.id} className="text-sm text-[var(--text-muted)] flex justify-between">
                       <span>{a.user_name || 'System'} {a.action.replace('_', ' ')} {a.field_changed ? `· ${a.field_changed}` : ''}</span>
-                      <span className="text-xs text-[#5C6773]">{a.created_at}</span>
+                      <span className="text-xs text-[var(--text-faint)]">{a.created_at}</span>
                     </div>
                   ))}
-                  {!client.activity.length && <p className="text-sm text-[#5C6773]">No activity yet.</p>}
+                  {!client.activity.length && <p className="text-sm text-[var(--text-faint)]">No activity yet.</p>}
                 </div>
               )}
             </div>
@@ -157,20 +157,20 @@ export default function ClientDetail() {
         </div>
 
         <div className="space-y-6">
-          <div className="bg-[#12181F] rounded-xl border border-[#1F2933] p-5">
-            <h3 className="font-medium text-[#E8EDF2] mb-3">Notes</h3>
+          <div className="bg-[var(--bg-panel)] rounded-xl border border-[var(--border)] p-5">
+            <h3 className="font-medium text-[var(--text-primary)] mb-3">Notes</h3>
             <form onSubmit={addNote} className="mb-3">
               <textarea className={inputCls} rows={3} placeholder="Add a note…" value={noteText} onChange={(e) => setNoteText(e.target.value)} />
-              <button className="mt-2 w-full bg-[#1F2933] hover:bg-[#2A3540] text-[#E8EDF2] text-sm font-medium py-2 rounded-lg">Add note</button>
+              <button className="mt-2 w-full bg-[var(--border)] hover:bg-[var(--border-strong)] text-[var(--text-primary)] text-sm font-medium py-2 rounded-lg">Add note</button>
             </form>
             <div className="space-y-3 max-h-80 overflow-y-auto">
               {client.notes.map((n) => (
-                <div key={n.id} className="text-sm border-b border-[#1F2933] pb-2">
-                  <p className="text-[#C3CBD3]">{n.note_text}</p>
-                  <p className="text-xs text-[#5C6773] mt-1">{n.author_name || 'Unknown'} · {n.created_at}</p>
+                <div key={n.id} className="text-sm border-b border-[var(--border)] pb-2">
+                  <p className="text-[var(--text-secondary)]">{n.note_text}</p>
+                  <p className="text-xs text-[var(--text-faint)] mt-1">{n.author_name || 'Unknown'} · {n.created_at}</p>
                 </div>
               ))}
-              {!client.notes.length && <p className="text-sm text-[#5C6773]">No notes yet.</p>}
+              {!client.notes.length && <p className="text-sm text-[var(--text-faint)]">No notes yet.</p>}
             </div>
           </div>
         </div>
