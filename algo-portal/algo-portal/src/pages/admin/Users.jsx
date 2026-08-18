@@ -32,18 +32,18 @@ export default function Users() {
     <div>
       <div className="flex items-center justify-between mb-6">
         <div>
-          <h1 className="text-2xl font-semibold text-[#E8EDF2]">Team &amp; Roles</h1>
-          <p className="text-[#77828E] text-sm mt-1">Manage who has access to the CS and Setup portals.</p>
+          <h1 className="text-2xl font-semibold text-[var(--text-primary)]">Team &amp; Roles</h1>
+          <p className="text-[var(--text-muted)] text-sm mt-1">Manage who has access to the CS and Setup portals.</p>
         </div>
         <button onClick={() => setModalOpen(true)} className="flex items-center gap-2 bg-[#3ECF8E] hover:bg-[#2FAD79] text-[#04231A] text-sm font-medium px-4 py-2 rounded-lg transition-colors">
           <Plus size={16} /> Add team member
         </button>
       </div>
 
-      <div className="bg-[#12181F] rounded-xl border border-[#1F2933]">
+      <div className="bg-[var(--bg-panel)] rounded-xl border border-[var(--border)]">
         <table className="w-full text-sm">
           <thead>
-            <tr className="text-left text-xs text-[#77828E] uppercase border-b border-[#1F2933]">
+            <tr className="text-left text-xs text-[var(--text-muted)] uppercase border-b border-[var(--border)]">
               <th className="px-4 py-3">Name</th>
               <th className="px-4 py-3">Username</th>
               <th className="px-4 py-3">Role</th>
@@ -53,10 +53,10 @@ export default function Users() {
           </thead>
           <tbody>
             {rows.map((u) => (
-              <tr key={u.id} className="border-b border-[#1F2933] hover:bg-[#171E26]">
-                <td className="px-4 py-3 font-medium text-[#E8EDF2]">{u.full_name}</td>
-                <td className="px-4 py-3 text-[#9AA5B1]">{u.username}</td>
-                <td className="px-4 py-3 text-[#9AA5B1] capitalize">{u.role}</td>
+              <tr key={u.id} className="border-b border-[var(--border)] hover:bg-[var(--bg-panel-hover)]">
+                <td className="px-4 py-3 font-medium text-[var(--text-primary)]">{u.full_name}</td>
+                <td className="px-4 py-3 text-[var(--text-muted)]">{u.username}</td>
+                <td className="px-4 py-3 text-[var(--text-muted)] capitalize">{u.role}</td>
                 <td className="px-4 py-3"><StatusBadge status={u.is_active ? 'active' : 'inactive'} /></td>
                 <td className="px-4 py-3 text-right">
                   <button onClick={() => toggleActive(u)} className="text-[#3ECF8E] hover:underline text-xs font-medium">
